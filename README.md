@@ -2,7 +2,12 @@
 
 Build with [**Chirpy**][chirpy] theme through [RubyGems.org][gem].
 
-Enjoy!
+## Configure
+
+Now this blog was deployed via <https://vercel.com/>. So:
+
+1. GitHub Actions was disabled
+2. GitHub Pages was disabled
 
 ## Usage
 
