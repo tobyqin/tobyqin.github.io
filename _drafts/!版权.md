@@ -4,4 +4,4 @@
 >
 > 欢迎关注我的博客 <https://tobyqin.cn>，你可以到我的公众号中去当吃瓜群众。
 >
-> ![Toby's Blog](https://raw.githubusercontent.com/tobyqin/img/master/wechat-qrcode.jpg)
+> ![Toby's Blog](https://img.tobyqin.cn/wechat-qrcode.jpg)

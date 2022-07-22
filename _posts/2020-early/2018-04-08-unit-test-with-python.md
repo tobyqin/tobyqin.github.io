@@ -91,13 +91,13 @@ pytest 能够识别 `unittest.TestCase` 子类中的测试方法，如果文件�
 
 在 PyCharm 中只要你将默认的单元测试驱动改成 pytest，就可以在任意`test`开头的方法上通过右键菜单运行或者调试这个测试案例，非常方便。
 
-![更改PyCharm设置](https://raw.githubusercontent.com/tobyqin/img/master/pytest-pycharm-settings.png)
+![更改PyCharm设置](https://img.tobyqin.cn/pytest-pycharm-settings.png)
 
-![右键菜单运行或者调试](https://raw.githubusercontent.com/tobyqin/img/master/pytest-context-run.png)
+![右键菜单运行或者调试](https://img.tobyqin.cn/pytest-context-run.png)
 
 如果你要运行当前文件的所有测试，只要从非`test`方法的其他区域点击右键即可。或者修改任意已经运行过的 Configuration，添加你想要的参数，比如最多运行挂 3 个 case 就终止测试等等。
 
-![自定义Run Configuration](https://raw.githubusercontent.com/tobyqin/img/master/pytest-configuration.png)
+![自定义Run Configuration](https://img.tobyqin.cn/pytest-configuration.png)
 
 ## 闲话和总结
 

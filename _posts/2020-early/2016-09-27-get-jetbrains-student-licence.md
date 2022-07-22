@@ -5,7 +5,7 @@ tags: [JetBrains, tips]
 categories: Tech
 ---
 
-![image](https://raw.githubusercontent.com/tobyqin/img/master/20190208185616.png)
+![image](https://img.tobyqin.cn/20190208185616.png)
 
 如果你还有在校时的邮箱，比如`your_name@xxx.edu`或者`your_name@xxx.edu.cn`的邮箱，那么你可以免费激活 JetBrains 全家桶。
 

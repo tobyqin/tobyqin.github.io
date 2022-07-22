@@ -166,7 +166,7 @@ Rainbow.extend(
 
 效果图如下：
 
-![自定义Log高亮](https://raw.githubusercontent.com/tobyqin/img/master/log-highlight.png)
+![自定义Log高亮](https://img.tobyqin.cn/log-highlight.png)
 
 ## 一些改进方法
 

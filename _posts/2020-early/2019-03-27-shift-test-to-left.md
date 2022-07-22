@@ -42,13 +42,13 @@ date: 2019-03-27
 
 为什么我们要测试左移呢？因为发现问题的时间越晚，修复的成本就越高。
 
-![img](https://raw.githubusercontent.com/tobyqin/img/master/2019-04/9f969a88cfae418fba23c10adc025b3a636807279198182687.jpg)
+![img](https://img.tobyqin.cn/2019-04/9f969a88cfae418fba23c10adc025b3a636807279198182687.jpg)
 
 图中橙色线条代表了传统测试发现缺陷的时间，大多数 bug 都是在功能测试和集成测试时发现的，最后导致的结果就是发布前加班加点，祈祷不要有 bug 漏到生产环境。
 
 如果我们能把测试活动向左移动，那么就意味着修复成本大幅下降。
 
-![img](https://raw.githubusercontent.com/tobyqin/img/master/2019-04/c8b20f490f1b40b28fe91e2fe48059fb636807279425994169.gif)
+![img](https://img.tobyqin.cn/2019-04/c8b20f490f1b40b28fe91e2fe48059fb636807279425994169.gif)
 
 但是谈何容易？想要把大部分测试点放在单元测试环境完成，非常依赖成熟的开发环境和极其资深的开发人员。
 
@@ -73,7 +73,7 @@ date: 2019-03-27
 
 那么测试能左移到什么程度呢？比如让开发在 Coding 时就发现问题，或者还没 Coding 就发现问题，那应该是极好的。
 
-![img](https://raw.githubusercontent.com/tobyqin/img/master/2019-04/ca89b059129e418aaa383c8b1d83c69b636807279625728401.gif)
+![img](https://img.tobyqin.cn/2019-04/ca89b059129e418aaa383c8b1d83c69b636807279625728401.gif)
 
 怎么做到呢？刚才已经说过了，测试即需求，把 bug 扼杀在摇篮里。
 
@@ -94,5 +94,5 @@ date: 2019-03-27
 
 ## 参考资料
 
-- 培训课件： [阿里 Devops 体系和实践.svg](https://raw.githubusercontent.com/tobyqin/img/master/阿里Devops体系和实践.svg)
+- 培训课件： [阿里 Devops 体系和实践.svg](https://img.tobyqin.cn/阿里Devops体系和实践.svg)
 - 参考文章：[What is shift-left testing?](https://blog.parasoft.com/what-is-the-shift-left-approach-to-software-testing)

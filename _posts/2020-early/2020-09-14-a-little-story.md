@@ -7,7 +7,7 @@ date: 2020-09-14
 
 这是一个小故事，在[V2](https://www.v2ex.com/t/706579)上看到的。
 
-![image-20200914224909912](https://raw.githubusercontent.com/tobyqin/img/master/image-20200914224909912.png)
+![image-20200914224909912](https://img.tobyqin.cn/image-20200914224909912.png)
 
 周天上午，去往商圈的公交上。一家三口带着女儿在对面坐着，旁边是一个父亲带着儿子并排挨着他们。我就坐在他们五人对面，目睹了小男孩**撩妹**的全过程。
 

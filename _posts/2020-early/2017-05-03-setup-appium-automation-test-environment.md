@@ -41,7 +41,7 @@ JRE 只有 50 多 MB，JDK 则接近 200MB，请前往[Java 官网](https://www.
 
 那么多一事不如少一事，我建议推荐你直接安装 Android Studio，这样不仅省事，而且万一你想写个 App 玩玩，也是极其方便的。
 
-![android-sdk-download](https://raw.githubusercontent.com/tobyqin/img/master/android-sdk-download.png)
+![android-sdk-download](https://img.tobyqin.cn/android-sdk-download.png)
 
 下载地址：https://developer.android.com/studio/index.html
 
@@ -49,15 +49,15 @@ JRE 只有 50 多 MB，JDK 则接近 200MB，请前往[Java 官网](https://www.
 
 一切就绪后，你可以在启动界面就可以打开 SDK Manager。
 
-![sdk-manager-from-launch](https://raw.githubusercontent.com/tobyqin/img/master/sdk-manager-from-launch.png)
+![sdk-manager-from-launch](https://img.tobyqin.cn/sdk-manager-from-launch.png)
 
 或者新建一个工程，从工程界面打开 SDK Manager。
 
-![sdk-manager-from-project](https://raw.githubusercontent.com/tobyqin/img/master/sdk-manager-from-project.png)
+![sdk-manager-from-project](https://img.tobyqin.cn/sdk-manager-from-project.png)
 
 SDK Manager 打开之后，使用的方法就一目了然了。这就是个让你更新 API 和各种开发工具的工具。
 
-![sdk-manager-usage](https://raw.githubusercontent.com/tobyqin/img/master/sdk-manager-usage.png)
+![sdk-manager-usage](https://img.tobyqin.cn/sdk-manager-usage.png)
 
 如果只是为了自动化测试其实你只要记住 SDK 安装目录就可以了，不需要安装任何多余的工具。SDK 的安装目录在配置环境变量时需要用到。
 
@@ -67,13 +67,13 @@ SDK Manager 打开之后，使用的方法就一目了然了。这就是个让�
 
 如果你已经安装了 Android Studio，模拟器也已经有了，从工程界面找到 AVD Manager 的按钮，按照下图三个步骤就可以添加并启动一个模拟器。
 
-![avd-manager](https://raw.githubusercontent.com/tobyqin/img/master/avd-manager.png)
+![avd-manager](https://img.tobyqin.cn/avd-manager.png)
 
 每当你安装新版本的模拟器都是需要翻墙或者代理的，最开始启动 Android Studio 时它已经给你下一个最新版的 Android，我当前模拟器中的 Android 版本是 7.1.1。
 
 如果一切顺利，那么当你启动模拟器后，你就可以看到一台虚拟的 Android 设备了，手动测试基本条件已经达成，自动化测试指日可待。
 
-![android-avd-start](https://raw.githubusercontent.com/tobyqin/img/master/android-avd-start.png)
+![android-avd-start](https://img.tobyqin.cn/android-avd-start.png)
 
 多说几句，除了使用 Android SDK 自带的模拟器外，我们还有两个选择，一是使用真机，速度和体验上会更好。另外一个选择就选择别的模拟器产品，比如 [Genymotion]()，因为是商业软件，所以对个人用户（免费）会有诸多限制，尽管如此，其成熟度也比 Android SDK 自带的模拟器高很多。因为这两个方案的具体实现涉及到的内容比较多，故不在本文讨论。
 
@@ -109,7 +109,7 @@ npm install -g appium-doctor
 
 如果安装成功，那么就可以通过 `appium` 命令启动 appium server。
 
-![appium-start](https://raw.githubusercontent.com/tobyqin/img/master/appium-start.png)
+![appium-start](https://img.tobyqin.cn/appium-start.png)
 
 关闭命令行或者按 Ctrl - C 就可以停止 Appium Server。
 
@@ -121,11 +121,11 @@ npm install -g appium-doctor
 
 最新版的 Appium 桌面安装后启动是这样的。
 
-![appium-desktop](https://raw.githubusercontent.com/tobyqin/img/master/appium-desktop.png)
+![appium-desktop](https://img.tobyqin.cn/appium-desktop.png)
 
 功能上和老的版本没太大区别，但是日志和 UI 显示更加清晰，一旦错误发生让你更容易找到问题所在。
 
-![appium-desktop-error](https://raw.githubusercontent.com/tobyqin/img/master/appium-desktop-error.png)
+![appium-desktop-error](https://img.tobyqin.cn/appium-desktop-error.png)
 
 注意，你可以不安装 Appium 桌面版，但是命令行版应该还是需要安装的，因为自动化测试运行时一般都是通过命令启动和关闭 Appium，桌面版并不提供命令行功能，只是为了调试方便。
 
@@ -156,7 +156,7 @@ pip install Appium-Python-Client
 
 如果你已经安装了 appium-doctor，那么你只要运行 appium-doctor 命令就可以知道你还需要设置哪些环境变量，比如：
 
-![appium-doctor](https://raw.githubusercontent.com/tobyqin/img/master/appium-doctor.png)
+![appium-doctor](https://img.tobyqin.cn/appium-doctor.png)
 
 不要慌，其实你只需要设置以下环境变量：
 
@@ -202,7 +202,7 @@ search_box.send_keys('hello toby')
 
 运行效果：
 
-![appium-hello](https://raw.githubusercontent.com/tobyqin/img/master/appium-hello.gif)
+![appium-hello](https://img.tobyqin.cn/appium-hello.gif)
 
 恭喜你，你已经开始进入移动端的自动化测试的大门了！
 

@@ -31,7 +31,7 @@ N1 买了又一段时间了，最开始卖家刷的是 yyf 电视系统，用的
 2. 刷 U 盘的工具叫 USB Image Tool，需要 Windows 系统。
 3. 镜像在恩山论坛可以下各种版本的，最稳定的据说是 5.77
 
-![usb](https://raw.githubusercontent.com/tobyqin/img/master/2020-02/2019-01-23_14-50-16.jpg)
+![usb](https://img.tobyqin.cn/2020-02/2019-01-23_14-50-16.jpg)
 
 刷机图如上，打开 USB Image Tool，选择你的 U 盘，点击 Restore 后选择镜像，等待结束即可。
 
@@ -52,7 +52,7 @@ N1 买了又一段时间了，最开始卖家刷的是 yyf 电视系统，用的
 3. U 盘根目录有一个`nEnv.ini`文件，里面写了使用哪个`dtb`
 4. 修改`nEnv.ini`指向刚才拷贝进来的`dtb`。
 
-![uEnv.ini](https://raw.githubusercontent.com/tobyqin/img/master/2020-02/2019-01-23_14-57-02.jpg)
+![uEnv.ini](https://img.tobyqin.cn/2020-02/2019-01-23_14-57-02.jpg)
 
 Armbian 5.77 的`dtb`可以用恩山论坛大神提供的，据说稳定性不错：
 
@@ -163,11 +163,11 @@ nmtui
 
 这个命令敲完会出来一个简单的 ui，用键盘方向键就可以选择和配置你的网路。
 
-![image-20200209151347103](https://raw.githubusercontent.com/tobyqin/img/master/image-20200209151347103.png)
+![image-20200209151347103](https://img.tobyqin.cn/image-20200209151347103.png)
 
 其实 Armbian 还是很易用的，你登录的时候它就提醒你了可以用`armbian-config`去配置 Armbian。
 
-![image-20200209151648670](https://raw.githubusercontent.com/tobyqin/img/master/image-20200209151648670.png)
+![image-20200209151648670](https://img.tobyqin.cn/image-20200209151648670.png)
 
 敲一下这个命令，你就会发现另外一片天地。
 
@@ -175,7 +175,7 @@ nmtui
 armbian-config
 ```
 
-![image-20200209151755721](https://raw.githubusercontent.com/tobyqin/img/master/image-20200209151755721.png)
+![image-20200209151755721](https://img.tobyqin.cn/image-20200209151755721.png)
 
 在这里你可以配置很多东西：
 
@@ -302,7 +302,7 @@ apt-get install cockpit
 
 Cockpit 是一个 Linux 服务器的 Web 管理程序，简单易用。
 
-![image-20200209154517563](https://raw.githubusercontent.com/tobyqin/img/master/image-20200209154517563.png)
+![image-20200209154517563](https://img.tobyqin.cn/image-20200209154517563.png)
 
 ### 安装 Docker
 
@@ -336,7 +336,7 @@ docker run -d -p 9000:9000 --name portainer \
 -v portainer_data:/data portainer/portainer:linux-arm64
 ```
 
-![image-20200209160349534](https://raw.githubusercontent.com/tobyqin/img/master/image-20200209160349534.png)
+![image-20200209160349534](https://img.tobyqin.cn/image-20200209160349534.png)
 
 让 Portainer 开机自动运行：
 

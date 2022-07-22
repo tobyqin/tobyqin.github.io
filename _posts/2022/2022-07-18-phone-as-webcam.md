@@ -13,7 +13,7 @@ date: 2022-07-18
 
 开源免费的虚拟摄像头，有很多专业的功能，可以模拟场景，声音，视频等等。我不需要那么多功能，只要模拟一个摄像头就行，选择一张自己的大头照或者一段小视频做虚拟摄像头的内容就行。
 
-![](https://raw.githubusercontent.com/tobyqin/img/master//202207182133267.png)
+![image](https://img.tobyqin.cn/202207182133267.png)
 
 使用方式：
 
@@ -28,7 +28,7 @@ date: 2022-07-18
 
 官网：<https://iriun.com/>
 
-![](https://raw.githubusercontent.com/tobyqin/img/master//202207182138910.png)
+![image](https://img.tobyqin.cn/202207182138910.png)
 
 需要手机先安装 app，然后打开 app 等待电脑端 app 启动，如果设备在同一个 wifi 内就可以看到手机摄像头了。
 

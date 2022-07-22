@@ -42,17 +42,17 @@ PyCharm 是很多 Python 开发者优先选择的 IDE，功能强大，跨平台
 
 从文件菜单选择 **New Project**， 选择 **IntelliJ Platform Plugin**，如果你没有配置**SDK**，点击**New** 菜单。
 
-![idea-plugin-sdk-1](https://raw.githubusercontent.com/tobyqin/img/master/idea-plugin-sdk-1.png)
+![idea-plugin-sdk-1](https://img.tobyqin.cn/idea-plugin-sdk-1.png)
 
 选择你本地 PyCharm Community Edition（社区版）的安装路径作为 SDK 目录，Java SDK 选择 1.8 以上的版本。
 
 > 请注意，你也可以使用 PyCharm Professional (旗舰版) 的安装路径作为 SDK 目录，不过当你调试插件碰到核心代码时，社区版你可以一步一步跟到最里面，但旗舰版不行，因为旗舰版并不是开源的，你拿不到源代码。
 
-![idea-plugin-sdk-2](https://raw.githubusercontent.com/tobyqin/img/master/idea-plugin-sdk-2.png)
+![idea-plugin-sdk-2](https://img.tobyqin.cn/idea-plugin-sdk-2.png)
 
 回到 **New Project** 的界面，点击 **Next**，输入 **Project name** 和 **Project location**，点击完成。
 
-![idea-new-project](https://raw.githubusercontent.com/tobyqin/img/master/idea-new-project.png)
+![idea-new-project](https://img.tobyqin.cn/idea-new-project.png)
 
 **小贴士：**如果你是打开别人的写的插件，那么你直接选择打开工程目录是没有用的，因为 IntelliJ IDEA 不认为这是个插件工程，所以你没法运行和调试这个插件，一个不怎么优雅的办法就是**从现有代码新建一个插件工程**，StackOverflow 关于这个的吐槽问题你搜到，如果你有更好的办法请告诉我。当你换一台机器把插件代码克隆下来之后应该就知道我在说什么了。
 
@@ -60,7 +60,7 @@ PyCharm 是很多 Python 开发者优先选择的 IDE，功能强大，跨平台
 
 一个典型的插件目录结构就像下图。
 
-![idea-project-structure](https://raw.githubusercontent.com/tobyqin/img/master/idea-project-structure.png)
+![idea-project-structure](https://img.tobyqin.cn/idea-project-structure.png)
 
 - **.idea** 目录 - JetBrains IDE 生成的工程都会有这么一个目录，存放用户配置和缓存，无需关心。
 - **doc** 目录 - 插件的文档，可选。
@@ -149,11 +149,11 @@ PyCharm 是很多 Python 开发者优先选择的 IDE，功能强大，跨平台
 
 如果你的插件是内部小范围使用，并且可能带有敏感信息，那么这样的方式会比较适合你。从主菜单选择 **Build > Prepare plugin 'my_plugin' For Deployment**。
 
-![idea-deploy-local](https://raw.githubusercontent.com/tobyqin/img/master/idea-deploy-local.png)
+![idea-deploy-local](https://img.tobyqin.cn/idea-deploy-local.png)
 
 如果成功那么在工程目录就会生成一个同名的 jar 文件。
 
-![idea-deploy-local-2](https://raw.githubusercontent.com/tobyqin/img/master/idea-deploy-local-2.png)
+![idea-deploy-local-2](https://img.tobyqin.cn/idea-deploy-local-2.png)
 
 将这个文件 copy 到目标机器就可以通过 **Install Plugin from disk ... ** 完成安装。
 
@@ -165,7 +165,7 @@ PyCharm 是很多 Python 开发者优先选择的 IDE，功能强大，跨平台
 
 登录之后选择 **UPLOAD PLUGIN** 菜单，上传之后大概需要 2 个工作日审核。
 
-![idea-deploy-remote](https://raw.githubusercontent.com/tobyqin/img/master/idea-deploy-remote.png)
+![idea-deploy-remote](https://img.tobyqin.cn/idea-deploy-remote.png)
 
 审核通过后其他用户就可以直接从 **Browse Repositories...** 里搜索到你的插件并安装。通过插件仓库安装的插件，一旦有新版本发布，用户将收到更新提示。
 

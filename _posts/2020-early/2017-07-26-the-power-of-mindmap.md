@@ -13,11 +13,11 @@ date: 2017-07-26
 
 名词解释大家都不爱看，所谓的思维导图其实就是类似于下面这样一张图。
 
-![传统思维导图](https://raw.githubusercontent.com/tobyqin/img/master/mindmap.jpg)
+![传统思维导图](https://img.tobyqin.cn/mindmap.jpg)
 
 是不是觉得好复杂，徒手画图？我可没说。我们现在接触到的文档大多数都是电子化的，所以你经常看到的思维导图应该像这个样子。
 
-![电子化的思维导图](https://raw.githubusercontent.com/tobyqin/img/master/xmind-example.png)
+![电子化的思维导图](https://img.tobyqin.cn/xmind-example.png)
 
 是不是挺清晰易懂的？思维导图也叫 MindMap，脑图等等。作为一个头脑风暴的工具，灵活运用「思维导图」将会对你在学习和工作帮助甚大！上面这张思维导图就是我在分享从 Python2 迁移到 Python3 的知识点总结。
 
@@ -51,15 +51,15 @@ date: 2017-07-26
 
 基本上 99%的思维导图软件都使用了以上两个快捷键，当你的手指放在键盘上时，你只要集中精力去整理思路，不需要去关心图是怎么画出来的。使用 TAB 进行大纲整理，使用 ENTER 添加平行内容。
 
-![使用快捷键创建思维导图](https://raw.githubusercontent.com/tobyqin/img/master/xmind-create.gif)
+![使用快捷键创建思维导图](https://img.tobyqin.cn/xmind-create.gif)
 
 在这里我推荐大家尝试使用 Xmind 来制作思维导图，它提供免费版，跨平台而且兼容很多其他同类软件的文件格式。
 
-![xmind 简介](https://raw.githubusercontent.com/tobyqin/img/master/xmind-intro.jpg)
+![xmind 简介](https://img.tobyqin.cn/xmind-intro.jpg)
 
 Xmind 可谓是杀人越货，居家必备之良品，优点多多，可以用下面这张思维导图来总结。
 
-![xmind的优点](https://raw.githubusercontent.com/tobyqin/img/master/xmind-good.png)
+![xmind的优点](https://img.tobyqin.cn/xmind-good.png)
 
 如果你不想或者没条件在每台电脑上都装 Xmind，那么网页版也有不少选择方案。我特别推荐 ProcessOn 和百度脑图。
 
@@ -74,24 +74,24 @@ Xmind 可谓是杀人越货，居家必备之良品，优点多多，可以用�
 
 思维导图非常适合做规划类的事情，因为规划需要有条理和步骤，需要细化和调整。当你用 Xmind 做好一个初步计划后，可以通过鼠标去拖动子项目来调整顺序优先级，并且还可以添加一些图标来标注状态或者优先级，例如下图。
 
-![xmind 做计划](https://raw.githubusercontent.com/tobyqin/img/master/xmind-plan.png)
+![xmind 做计划](https://img.tobyqin.cn/xmind-plan.png)
 
 ### 做知识梳理
 
 当你需要做读书笔记或者归纳总结知识点时，思维导图也十分有效。下图是我开始学习 Python 后做的思维导图，里面包含了读书笔记和经验总结，通过思维导图我能很方便的回顾各个知识点，查缺补漏。
 
-![xmind 做知识梳理](https://raw.githubusercontent.com/tobyqin/img/master/xmind-learn-python.png)
+![xmind 做知识梳理](https://img.tobyqin.cn/xmind-learn-python.png)
 
 ### 协助软件开发
 
 软件开发过程中你需要了解业务，设计模型，整理 API，其实思维导图也是一个不错的帮手。
-![xmind 协助软件开发](https://raw.githubusercontent.com/tobyqin/img/master/xmind-design-app.png)
+![xmind 协助软件开发](https://img.tobyqin.cn/xmind-design-app.png)
 
 ### 设计测试案例
 
 不知道你发现没有，其实设计测试案例（TestCase Desgin）其实就是发散思维的一个典型应用。作为测试人员你需要尽可能多的考虑测试路径，如果用图来表示测试案例，那么其实就是一棵树，树的根节点就是你要测试的功能，发散出来的分支就是你要考虑的各种情况。用思维导图来设计测试案例再合适不过。
 
-![xmind 设计测试案例](https://raw.githubusercontent.com/tobyqin/img/master/test_case_by_xmind.png)
+![xmind 设计测试案例](https://img.tobyqin.cn/test_case_by_xmind.png)
 
 ## 小结
 

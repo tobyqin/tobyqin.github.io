@@ -7,7 +7,7 @@ categories: Reading
 
 > 文/大橙子
 
-![image](https://raw.githubusercontent.com/tobyqin/img/master/never-told-you.jpg)
+![image](https://img.tobyqin.cn/never-told-you.jpg)
 
 故事以莉迪亚之死为主线，讲述了 Lee 一家的故事，父母对子女教育的失败，父母婚姻的失败。
 

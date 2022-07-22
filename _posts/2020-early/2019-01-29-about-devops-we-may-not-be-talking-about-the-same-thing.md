@@ -25,7 +25,7 @@ DevOps 至今都缺乏一个清晰和统一的认识。对于一场运动来说�
 
 以至于后来出现了这幅众所周知的“盲人摸象图”：
 
-![image](https://raw.githubusercontent.com/tobyqin/img/master/2019-01/274927-9e9fe4421aa97735.png)
+![image](https://img.tobyqin.cn/2019-01/274927-9e9fe4421aa97735.png)
 
 这幅图中包含了很多概念，但主要表现的意义 DevOps 是一系列概念的总和，任何一个单方面的定义只是 DevOps 的一个部分，而不是 DevOps 的整体，随着 DevOps 这个概念的不断膨胀，人们就更难理解 DevOps 了。
 

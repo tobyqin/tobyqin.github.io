@@ -29,7 +29,7 @@ pip install xmindparser
 
 xmindparser 可以将 xmind 转成`dict`数据类型，比如下面这么一个 xmind 文件：
 
-![xmind example](https://raw.githubusercontent.com/tobyqin/img/master/xmind-example.png)
+![xmind example](https://img.tobyqin.cn/xmind-example.png)
 
 转换代码的示例：
 

@@ -51,10 +51,10 @@ ssh root@192.168.1.1 # 使用root
 
 最后贴一下口令登录验证原理。
 
-![img](https://raw.githubusercontent.com/tobyqin/img/master/1586336-20190213210715597-629546872.png)
+![img](https://img.tobyqin.cn/1586336-20190213210715597-629546872.png)
 
 以及密钥登录验证原理。
 
-![img](https://raw.githubusercontent.com/tobyqin/img/master/1586336-20190213210725731-973454197.png)
+![img](https://img.tobyqin.cn/1586336-20190213210725731-973454197.png)
 
 参考文章：https://www.cnblogs.com/henkeyi/p/10487553.html

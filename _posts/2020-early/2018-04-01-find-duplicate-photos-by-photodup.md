@@ -55,9 +55,9 @@ python web.py
 
 顺利的话用浏览器打开 [http://127.0.0.1:5001](http://127.0.0.1:5001/) 就可以看到一个友好的网页，可以通过文件 hash 或者文件名来清理重复文件，可以预览图片文件。
 
-![dup_by_hash](https://raw.githubusercontent.com/tobyqin/img/master/dup_by_hash.png)
+![dup_by_hash](https://img.tobyqin.cn/dup_by_hash.png)
 
-![dup_by_name](https://raw.githubusercontent.com/tobyqin/img/master/dup_by_name.png)
+![dup_by_name](https://img.tobyqin.cn/dup_by_name.png)
 
 ## 原理&总结
 

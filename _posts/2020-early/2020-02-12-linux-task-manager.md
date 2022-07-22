@@ -76,7 +76,7 @@ top -o %MEM
 2. `top`后面用管道加`grep`，比如 `top | grep httpd`
 3. 用交互模式，按`shift`+`l`(Locate)，然后输入搜索的字符，回车。按`&`搜索下一匹配处。
 
-![image-20200212202516163](https://raw.githubusercontent.com/tobyqin/img/master/image-20200212202516163.png)
+![image-20200212202516163](https://img.tobyqin.cn/image-20200212202516163.png)
 
 ## 如果要过滤某些任务怎么办？
 
@@ -86,13 +86,13 @@ top -o %MEM
 2. 用`grep`可以解决一些问题，比如 `top | grep root`
 3. 用交互模式，按小写`o`然后输入你要过滤的条件，比如`USER=root`, `PID<40` ，`!USER=root`等等，此时大小写是不敏感的，如果按大写`O`大小写就是敏感的。貌似没办法部分匹配，按`=`可以重置过滤条件。
 
-![image-20200212204136480](https://raw.githubusercontent.com/tobyqin/img/master/image-20200212204136480.png)
+![image-20200212204136480](https://img.tobyqin.cn/image-20200212204136480.png)
 
 ## 如果要杀掉某些任务怎么办？
 
 直接按`k`就好了，首先会让你输入`PID`，然后再输入`SIG`，回车搞定。
 
-![image-20200212210832677](https://raw.githubusercontent.com/tobyqin/img/master/image-20200212210832677.png)
+![image-20200212210832677](https://img.tobyqin.cn/image-20200212210832677.png)
 
 顺便备注一下`SIG`的参考值：
 
@@ -113,4 +113,4 @@ top -o %MEM
 
 如果你想要更接近 UI 的任务管理，试一下`htop`吧，可以上下左右，还有快捷键写在功能旁边，新款的 Linux 都原生支持`htop`。
 
-![image-20200212211906608](https://raw.githubusercontent.com/tobyqin/img/master/image-20200212211906608.png)
+![image-20200212211906608](https://img.tobyqin.cn/image-20200212211906608.png)
