@@ -4,10 +4,11 @@ Build with [**Chirpy**][chirpy] theme through [RubyGems.org][gem].
 
 ## Configure
 
-Now this blog was deployed via <https://vercel.com/>. So:
+Now this blog was deployed via <https://vercel.com/>, can be visited by following URLs.
 
-1. GitHub Actions was disabled
-2. GitHub Pages was disabled
+1. https://tobyqin.cn (from Vercel)
+2. https://tobyqin-github-io.vercel.app
+3. https://tobyqin.github.io (Github Pages)
 
 ## Usage
 
