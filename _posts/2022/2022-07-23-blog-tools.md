@@ -49,4 +49,13 @@ date: 2022-07-23
 
 1. Vercel 比 GitHub Pages 快一点点  https://vercel.com/
 2. Cloudflare Email 自动转发所有域名邮件
-3. Cloudflare Pages 提供静态资源的 CDN，可以自定义域名。
+3. Cloudflare Pages 提供 CDN 加速，可以自定义域名。
+
+比如我将 PicGo 上传到 GitHub 的图片仓库托管过去，顺便加了个域名。
+
+![](https://image.tobyqin.cn/202207231654145.png)
+
+- 图片仓库：https://github.com/tobyqin/img
+- CDN 加速后自定义域名：https://image.tobyqin.cn/
+
+
