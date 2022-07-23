@@ -23,7 +23,7 @@ timezone: Asia/Shanghai
 
 title: Practice # the main title
 
-tagline: makes perfect # it will display as the sub-title
+tagline: makes perfect # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   This is another blog to share thoughts and experience in software engineering and DevOps.
@@ -32,10 +32,10 @@ description: >- # used by seo meta and the atom feed
 url: "https://tobyqin.cn"
 
 github:
-  username: tobyqin # change to your github username
+  username: tobyqin # change to your GitHub username
 
 twitter:
-  username: toby_qin # change to your twitter username
+  username: toby_qin # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -89,7 +89,7 @@ avatar: 'https://img.tobyqin.cn/avatar.jpg'
 toc: true
 
 comments:
-  active: disqus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname: 'https-betacat-online' # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -99,9 +99,9 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
+    repo: tobyqin/tobyqin.github.io # <gh-username>/<repo>
     repo_id:
-    category:
+    category: Announcements
     category_id:
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
