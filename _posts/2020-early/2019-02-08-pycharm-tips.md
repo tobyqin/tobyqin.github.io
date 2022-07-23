@@ -5,15 +5,15 @@ tags: [python, pycharm, tips]
 date: 2019-02-08
 ---
 
-PyCharm 是笔者强烈推荐的 Python IDE，如果你有 EDU 的邮箱可以直接[申请专业版授权](https://tobyqin.github.io/posts/2016-09-27/get-jetbrains-student-licence/)，或者就使用社区版，功能上并没有太多缩减，日常开发也完全够用。
+PyCharm 是笔者强烈推荐的 Python IDE，个人认为体验比 VSCode 好的不只是一点半点。
 
 <!-- more -->
 
-如果是首次安装 PyCharm，有一些设置项建议还是按照自己习惯修改掉，所谓磨刀不误砍柴工。
+如果是首次安装 PyCharm，有一些设置项建议还是按照自己习惯修改掉，所谓磨刀不误砍柴工。注意不同版本的PyCharm 可能对本文所提及的设置项重新调整，大家可以根据提示摸索寻找。
 
 ## 显示工具栏
 
-默认 PyCharm 并不显示工具栏（Toolbar），在大多数 IDE 工具栏都放了最常用的操作，你可以通过主菜单-显示-菜单栏来显示工具栏。工具栏显示出来后你还可以通过右键定制上面的按钮，我会把一些跟 VCS 相关的操作放到上面，比如 Fetch，Push，默认它只加了 Pull 和 Commit。
+默认 PyCharm 并不显示工具栏（Toolbar），在大多数 IDE 工具栏都放了最常用的操作，你可以通过`主菜单-外观-工具栏`来显示工具栏。工具栏显示出来后你还可以通过右键定制上面的按钮，我会把一些跟 VCS 相关的操作放到上面，比如 Fetch，Push，默认它只加了 Pull 和 Commit。
 
 ![image](https://image.tobyqin.cn/2019-02/20190208162340.png)
 
@@ -25,11 +25,11 @@ PyCharm 是笔者强烈推荐的 Python IDE，如果你有 EDU 的邮箱可以�
 
 ## 鼠标滚轮调整字体大小
 
-有时候我们讨论或者分享代码时，已经设置好的字体大小可能不太合适，很多 IDE 或者软件都是支持使用鼠标滚轮实时调整字体大小的，PyCharm 中你需要手动启用这个功能。在设置中搜索`zoom`就可以找到对应设置项。
+有时候我们讨论或者分享代码时，已经设置好的字体大小可能不太合适，很多 IDE 或者软件都是支持使用鼠标滚轮实时调整字体大小的，PyCharm 中你需要手动启用这个功能。在设置中搜索`change font size`就可以找到对应设置项。
 
 ![image](https://image.tobyqin.cn/2019-02/20190208170026.png)
 
-##修改单元测试框架
+## 修改单元测试框架
 
 如果你也有写单元测试的习惯，想必一定知道 pytest，PyCharm 可以很好地和很多知名的测试框架，但是默认它配置的是 unittest，在设置中搜索`test`就可以调整成你常用的框架。
 
@@ -50,6 +50,20 @@ PyCharm 支持的测试框架很多，但我喜欢的还是 pytest。
 更厉害的是，你还可以选择提交前格式化代码，优化 import 区等等。
 
 ![image-20190208172622399](https://image.tobyqin.cn/image-20190208172622399.png)
+
+## 命令行区域的快捷键
+
+我们经常要切换不同的 IDE，继承的命令行工具很方便，不过快捷键一般都不太一样，我会全都改成 `Ctrl + ``。这是我认为最好盲按的快捷键组合。
+
+```
+设置路径：Preference - KeyMap - Search "Terminal"
+```
+
+另外在 PyCharm Terminal 中如果按了 Escape 键就会跳到编辑器区域，这个默认设定很烦，会导致我们用 ECS 退出 VI 时特别偷偷，所以这个快捷键也要去掉。
+
+```
+设置路径：Preference - KeyMap - Search "Switch Focus to Editor"
+```
 
 ## 其他可以调整的设置
 
