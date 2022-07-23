@@ -70,15 +70,15 @@ http://192.168.1.254/
 
 修改网络接口，使用主路由网关和 DNS。
 
-![image-20200502154013741](https://img.tobyqin.cn/image-20200502154013741.png)
+![image-20200502154013741](https://image.tobyqin.cn/image-20200502154013741.png)
 
-![image-20200502154126282](https://img.tobyqin.cn/image-20200502154126282.png)
+![image-20200502154126282](https://image.tobyqin.cn/image-20200502154126282.png)
 
 关闭旁路由 DHCP 服务。
 
-![image-20200502154244314](https://img.tobyqin.cn/image-20200502154244314.png)
+![image-20200502154244314](https://image.tobyqin.cn/image-20200502154244314.png)
 
-![image-20200502154256056](https://img.tobyqin.cn/image-20200502154256056.png)
+![image-20200502154256056](https://image.tobyqin.cn/image-20200502154256056.png)
 
 到此为止，旁路由的配置基本完毕，后面就是测试了。如果中间任何配置有问题想重来，停止并删除容器即可。
 
@@ -91,13 +91,13 @@ docker rm openwrt
 
 第一种方式，非全局模式。如果只需要某一些设备走旁路由，需要手动配置网络为旁路由地址，主路由不需要做任何配置。好处是旁路由挂了只会影响这些特定的设备，坏处就是比较麻烦。
 
-![image-20200502162133900](https://img.tobyqin.cn/image-20200502162133900.png)
+![image-20200502162133900](https://image.tobyqin.cn/image-20200502162133900.png)
 
 第二种方式，主路由全局模式。经旁路由的网关配置到主路由的 DHCP 即可，以后所有连接主路由的设备都会先经过旁路由。
 
 配置方法就是进入主路由后台，将 DHCP 默认网关改成 192.168.1.254，DNS 也改成这个地址。已经连接的设备重新连接主路由一下才会生效。
 
-![image-20200502162550814](https://img.tobyqin.cn/image-20200502162550814.png)
+![image-20200502162550814](https://image.tobyqin.cn/image-20200502162550814.png)
 
 一般用第一种方式测试一下旁路由是不是正常工作了，然后我会全局都走旁路由。我发现 N1 放那么几天就会死机，所有最后配置一下自动重启，比如每天重启一次。
 
@@ -105,11 +105,11 @@ docker rm openwrt
 
 配置了半天，旁路由的作用都没说出来，在旁路由里世界无穷大。去广告什么的都不说了，还有很多只可以意会不可言传的功能。
 
-![image-20200502163251438](https://img.tobyqin.cn/image-20200502163251438.png)
+![image-20200502163251438](https://image.tobyqin.cn/image-20200502163251438.png)
 
-![image-20200502163305280](https://img.tobyqin.cn/image-20200502163305280.png)
+![image-20200502163305280](https://image.tobyqin.cn/image-20200502163305280.png)
 
-![image-20200502163321286](https://img.tobyqin.cn/image-20200502163321286.png)
+![image-20200502163321286](https://image.tobyqin.cn/image-20200502163321286.png)
 
 参考文章：
 

@@ -31,7 +31,7 @@ brew install --with-training-tools tesseract
 
 另外，默认安装会包含英文语言训练包，如果需要支持简体中文或者繁体中文，需要在安装时勾选。
 
-![tesseract-lang](https://img.tobyqin.cn/tesseract-lang.png)
+![tesseract-lang](https://image.tobyqin.cn/tesseract-lang.png)
 
 或者安装结束后到项目地址下载：https://github.com/tesseract-ocr/tessdata
 
@@ -98,7 +98,7 @@ print(img_to_str('image/test2.png', lang=Languages.CHS))
 
 测试图片- `test1.png`：
 
-![test1](https://img.tobyqin.cn/orc-test1.png)
+![test1](https://image.tobyqin.cn/orc-test1.png)
 
 识别结果：
 
@@ -115,7 +115,7 @@ process image file "image/test1.png" in 1.4782530478747697 seconds
 
 测试图片 - `test2.png`
 
-![test1](https://img.tobyqin.cn/orc-test2.png)
+![test1](https://image.tobyqin.cn/orc-test2.png)
 
 识别结果：
 
@@ -138,7 +138,7 @@ Tesseract 在识别清晰的标准中文字体效果还行，稍微复杂的情�
 
 ### 安装使用
 
-首先你需要注册一个[百度云 BCE 账号](https://cloud.baidu.com/)，然后从控制面板新建一个文字识别应用。![baidu-ocr](https://img.tobyqin.cn/baidu-ocr.png)
+首先你需要注册一个[百度云 BCE 账号](https://cloud.baidu.com/)，然后从控制面板新建一个文字识别应用。![baidu-ocr](https://image.tobyqin.cn/baidu-ocr.png)
 
 之后你就可以获得调用 API 需要的 AppID，API Key 和 Secret Key。后面只要根据官方文档一步一步走就可以了。
 
@@ -174,7 +174,7 @@ def img_to_str(image_path):
 
 测试图片- `test1.png`：
 
-![test1](https://img.tobyqin.cn/orc-test1.png)
+![test1](https://image.tobyqin.cn/orc-test1.png)
 
 识别结果：
 
@@ -193,7 +193,7 @@ process image file "image/test1.png" in 0.6331169034812572 seconds
 
 测试图片 - `test2.png`
 
-![test1](https://img.tobyqin.cn/orc-test2.png)
+![test1](https://image.tobyqin.cn/orc-test2.png)
 
 识别结果：
 

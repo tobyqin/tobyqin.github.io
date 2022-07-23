@@ -9,17 +9,17 @@ date: 2021-08-09
 
 ## 节操掉了一地
 
-![commit messages: ProgrammerHumor](https://img.tobyqin.cn/commit-message.png)
+![commit messages: ProgrammerHumor](https://image.tobyqin.cn/commit-message.png)
 
 在敏捷开发里我们提倡频繁提交代码，但是这并不意味着对提交的代码和提交记录的质量妥协。你身边有没有这样的程序员大哥大姐，在提交代码时是这样写的提交信息？
 
-![just update](https://img.tobyqin.cn/image-20210809222633183.png)
+![just update](https://image.tobyqin.cn/image-20210809222633183.png)
 
 节操仿佛掉了一地，甚至还有下面这样的。
 
-![just shit](https://img.tobyqin.cn/image-20210810074620042.png)
+![just shit](https://image.tobyqin.cn/image-20210810074620042.png)
 
-![just bug fix](https://img.tobyqin.cn/image-20210810074738991.png)
+![just bug fix](https://image.tobyqin.cn/image-20210810074738991.png)
 
 ## 规范化的代码提交记录
 
@@ -134,7 +134,7 @@ The `footer` should contain any information about **Breaking Changes** and is al
 
 其次，良好的提交记录可以提高你的口碑和声誉，我们可以随手去知名的开源项目翻阅一下，大神们不仅对代码有极高的要求，对提交记录也一样。
 
-![tidy commit message](https://img.tobyqin.cn/conventional-git-commit.jpg)
+![tidy commit message](https://image.tobyqin.cn/conventional-git-commit.jpg)
 
 大家在翻开其他同行的代码时，第一眼看的并不是代码，而是提交记录，他对他的好感有时候就是那么简单自然。
 
@@ -147,12 +147,12 @@ The `footer` should contain any information about **Breaking Changes** and is al
 1. IDEA 可以用 [Conventional Commit](https://plugins.jetbrains.com/plugin/13389-conventional-commit)
 2. VSCode 可以用 [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
 
-![image](https://img.tobyqin.cn/idea-conventional-commit.gif)
+![image](https://image.tobyqin.cn/idea-conventional-commit.gif)
 
 我真的不是强行凑字数，它们的名字就这样。
 
 还有一些插件更厉害了，可以让你的代码不按规范写 Commit Message 就没法提交，只要大家觉得这样没毛病，就可以把这个插件带到你的团队，这个插件叫，[Husky](https://github.com/typicode/husky)。
 
-![image](https://img.tobyqin.cn/dog-husky.jpg)
+![image](https://image.tobyqin.cn/dog-husky.jpg)
 
 关于 pre-commit-hook 和 husky 的使用，我们下次再讲，过了今天，愿你我的节操同在。

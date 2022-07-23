@@ -24,7 +24,7 @@ sudo docker run hello-world
 
 接下来就是映射本地文件到虚拟机里，配置共享就好了。
 
-![image-20200507220741525](https://img.tobyqin.cn/image-20200507220741525.png)
+![image-20200507220741525](https://image.tobyqin.cn/image-20200507220741525.png)
 
 然后从本地 iTerm 登录到虚拟机的命令行，切换到本地工作目录（被挂载到了`/media/psf/Home/src`）。这样就可以在本地获得一个原生的 Linux Shell，操作的还是项目里的文件。
 
@@ -68,7 +68,7 @@ WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status
 
 说明主机和虚拟机的网络桥接没问题，但是虚拟机和 Docker 之间的网络不通。不管切换什么网络共享方式，都行不通。
 
-![image-20200507222519106](https://img.tobyqin.cn/image-20200507222519106.png)
+![image-20200507222519106](https://image.tobyqin.cn/image-20200507222519106.png)
 
 算了，我打不过你。
 

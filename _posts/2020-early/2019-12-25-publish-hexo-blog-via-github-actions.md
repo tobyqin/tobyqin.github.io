@@ -49,7 +49,7 @@ deploy:
 
 好戏开场，切到你的`blog`仓库，选择 `Actions` 选项卡，新建一个 `Workflow`。
 
-![image-20191225230141168](https://img.tobyqin.cn/image-20191225230141168.png)
+![image-20191225230141168](https://image.tobyqin.cn/image-20191225230141168.png)
 
 你可以选用某个模板，比如 `Node.js`，或者完全自定义。针对我自己的博客，因为我在发布前还写了个 Python 的脚本做了一些额外的事情，所以我的 `Workflow` 大概是这样的。
 
@@ -113,7 +113,7 @@ jobs:
 
 当然这个 Workflow 我也不是一次就执行成功的，如果你需要调试的话就可以到 Github Actions 这个选项卡去看执行日志，非常的详尽和易读。
 
-![image-20191225232123775](https://img.tobyqin.cn/image-20191225232123775.png)
+![image-20191225232123775](https://image.tobyqin.cn/image-20191225232123775.png)
 
 ## 小结
 

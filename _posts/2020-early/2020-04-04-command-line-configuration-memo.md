@@ -107,7 +107,7 @@ plugins=(zsh-autosuggestions)
 
 成功启用后的效果如下。
 
-![image-20200404202408289](https://img.tobyqin.cn/image-20200404202408289.png)
+![image-20200404202408289](https://image.tobyqin.cn/image-20200404202408289.png)
 
 灰色部分是自动提示的，主要是根据输入历史和自动完成的可能性，按右方向键就可以直接使用提示的完整命令，爽歪歪。
 

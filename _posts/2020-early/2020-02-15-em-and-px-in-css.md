@@ -11,8 +11,8 @@ date: 2020-02-15
 
 这是一张速查表。
 
-![img](https://img.tobyqin.cn/2020-02/font-size-conversion-chart.png)
+![img](https://image.tobyqin.cn/2020-02/font-size-conversion-chart.png)
 
 可能有些人喜欢下面这张。
 
-![img](https://img.tobyqin.cn/2020-02/3e027707-9ebb-4d3c-8c06-ef9f7504d3ab.png)
+![img](https://image.tobyqin.cn/2020-02/3e027707-9ebb-4d3c-8c06-ef9f7504d3ab.png)

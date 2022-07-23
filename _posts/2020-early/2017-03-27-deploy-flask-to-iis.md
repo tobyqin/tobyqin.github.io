@@ -38,13 +38,13 @@ if __name__=='__main__':
 
 在控制面板中找到*打开或者关闭 Windows 功能*，安装 IIS 和 CGI，如下图。
 
-![iis+cgi](https://img.tobyqin.cn/iis+cgi.png)
+![iis+cgi](https://image.tobyqin.cn/iis+cgi.png)
 
 ## 安装 URL 重写组件
 
 IIS 需要安装 URL 重写组件，这个可以通过[Microsoft Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx)来安装。下载[Microsoft Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx)后运行，搜索`url`，分别安装。
 
-![wpi-url](https://img.tobyqin.cn/wpi-url.png)
+![wpi-url](https://image.tobyqin.cn/wpi-url.png)
 
 _注：据说 Windows10 上的 IIS 10 现在不支持 url 重写？待验证_
 
@@ -132,15 +132,15 @@ icacls . /grant "Builtin\IIS_IUSRS:(OI)(CI)(RX)"
 
 现在你离成功只差一步之遥，打开 IIS 管理面板，新建一个网站。
 
-![iis-add-web-site](https://img.tobyqin.cn/iis-add-web-site.png)
+![iis-add-web-site](https://image.tobyqin.cn/iis-add-web-site.png)
 
 你只需要填上网站名称，物理地址和相应的端口号，点击确认。
 
-![iis-website-config](https://img.tobyqin.cn/iis-website-config.png)
+![iis-website-config](https://image.tobyqin.cn/iis-website-config.png)
 
 打开浏览器，就可以访问你配置好的网站。如果有错误，可以去检查 `web.config` 中配置的日志文件。
 
-![iis-web-site-ok](https://img.tobyqin.cn/iis-web-site-ok.png)
+![iis-web-site-ok](https://image.tobyqin.cn/iis-web-site-ok.png)
 
 ## 简单总结
 
@@ -150,7 +150,7 @@ icacls . /grant "Builtin\IIS_IUSRS:(OI)(CI)(RX)"
 
 **据说**部署 Python 网站到 IIS 还有更简单的办法，那就是安装宇宙最强的 IDE - [Visual Studio 2015](https://www.visualstudio.com/) （VS2017 暂不支持 Python 开发），个人开发者可以免授权使用社区版。在 VS 中你可以使用 [PTVS](https://microsoft.github.io/PTVS/) 来快捷开发**并部署**Python 程序，真正让你一键无忧。
 
-![ptvs-web](https://img.tobyqin.cn/ptvs-web.png)
+![ptvs-web](https://image.tobyqin.cn/ptvs-web.png)
 
 PTVS 支持了常见的 Python Web 框架，比如 Flask，Django，Bottle，Jade 等等，调试的时候只需要按 F5，部署右键选择 publish，跟着向导一步两步你就可以完成魔鬼的步伐。
 

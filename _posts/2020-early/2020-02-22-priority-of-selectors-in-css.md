@@ -20,16 +20,16 @@ CSS 选择器的优先级官方的说法应该叫特殊性（Specificity），�
 
 用图片表示就是这样的：
 
-![css specificity](https://img.tobyqin.cn/2020-02/20180527004805952)
+![css specificity](https://image.tobyqin.cn/2020-02/20180527004805952)
 
 或者这样的：
 
-![css selector priority](https://img.tobyqin.cn/image-20200222175158998.png)
+![css selector priority](https://image.tobyqin.cn/image-20200222175158998.png)
 
 再补充一个实际的计算例子：
 
-![CSS selector](https://img.tobyqin.cn/image-20200222175423591.png)
+![CSS selector](https://image.tobyqin.cn/image-20200222175423591.png)
 
 或者这个例子：
 
-![css-selector-example](https://img.tobyqin.cn/css-selector-example.png)
+![css-selector-example](https://image.tobyqin.cn/css-selector-example.png)

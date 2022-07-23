@@ -7,7 +7,7 @@ categories: Reading
 
 > 文/大橙子
 
-![image](https://img.tobyqin.cn/xxj.jpg)
+![image](https://image.tobyqin.cn/xxj.jpg)
 
 > 这本书是某人要求我读的，啊。
 

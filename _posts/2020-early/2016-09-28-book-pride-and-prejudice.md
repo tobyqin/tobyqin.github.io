@@ -7,7 +7,7 @@ categories: Reading
 
 > 文/大橙子
 
-![image](https://img.tobyqin.cn/pride_prejudice.jpg)
+![image](https://image.tobyqin.cn/pride_prejudice.jpg)
 
 很经典的爱情故事，情节比较简单，结合英国那个时代背景看会更好，如当时的社交文化，当时遗产继承制度（如无男嗣，则传给亲戚关系里最近的男嗣。由于班纳特夫妇无儿子，因此，班纳特老爷的侄子柯林斯，成为日后继承班纳特家庭财产的人选）。
 

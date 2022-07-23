@@ -17,7 +17,7 @@ date: 2020-02-22
 
 官网：https://www.gitbook.com/
 
-![image-20200222154308518](https://img.tobyqin.cn/image-20200222154308518.png)
+![image-20200222154308518](https://image.tobyqin.cn/image-20200222154308518.png)
 
 ## docsify
 
@@ -25,7 +25,7 @@ date: 2020-02-22
 
 官网：https://docsify.js.org/
 
-![image-20200222154600499](https://img.tobyqin.cn/image-20200222154600499.png)
+![image-20200222154600499](https://image.tobyqin.cn/image-20200222154600499.png)
 
 ## vuepress
 
@@ -33,7 +33,7 @@ date: 2020-02-22
 
 官网：https://vuepress.vuejs.org/
 
-![image-20200222155018511](https://img.tobyqin.cn/image-20200222155018511.png)
+![image-20200222155018511](https://image.tobyqin.cn/image-20200222155018511.png)
 
 ## sphinx
 
@@ -41,4 +41,4 @@ Python 文档的最佳搭档，可以识别 Python 中的方法注释，非常�
 
 官网：https://www.sphinx-doc.org/
 
-![image-20200222160704364](https://img.tobyqin.cn/image-20200222160704364.png)
+![image-20200222160704364](https://image.tobyqin.cn/image-20200222160704364.png)

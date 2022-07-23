@@ -5,7 +5,7 @@ tags: [python, flask]
 date: 2020-01-26
 ---
 
-![organizing](https://img.tobyqin.cn/organizing.png)
+![organizing](https://image.tobyqin.cn/organizing.png)
 
 [Flask](https://palletsprojects.com/p/flask/) 是非常轻量和灵活的 Python 框架，轻量和灵活是它的优点，也是它的缺点。所以我们在使用 Flask 构建项目时就不得不慎重考虑其目录结构，以便日后扩展和维护。
 

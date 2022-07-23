@@ -56,7 +56,7 @@ def delete_todo():
 
 假设我们的 API 都是以 `http://127.0.0.1/api/*` 的形式书写的，那么最好把 API 的完整列表就放在根目录下面，比如这样：
 
-![api-demo-home](https://img.tobyqin.cn/api-demo-home.png)
+![api-demo-home](https://image.tobyqin.cn/api-demo-home.png)
 
 view 方法的实现主要依靠 `app.url_map` 来获取 Flask 中所有的 API：
 
@@ -96,7 +96,7 @@ Root{% endblock %} {% block breadcrumb_nav %}
 
 接下来我们来文档化每个具体的 API 方法，最终的展示结果会是这样的。
 
-![api-demo-full](https://img.tobyqin.cn/api-demo-full.png)
+![api-demo-full](https://image.tobyqin.cn/api-demo-full.png)
 
 view 方法的实现思路其实也很明确，我们可以通过 `app.view_functions` 这个字典找到每个 API 的 endpoint 所绑定的方法，然后访问方法的名字和文档即可。
 

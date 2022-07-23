@@ -13,11 +13,11 @@ date: 2020-04-26
 
 国内最常用的就是 ProcessOn 了，功能很全，就是免费额度有点少。
 
-![image-20200426214245160](https://img.tobyqin.cn/image-20200426214245160.png)
+![image-20200426214245160](https://image.tobyqin.cn/image-20200426214245160.png)
 
 国外最知名的就是 [Draw.io](https://draw.io) 了，基本上就是免费的，常常集成在各种服务里。就是速度有点慢，不，是非常慢。
 
-![image-20200426214432654](https://img.tobyqin.cn/image-20200426214432654.png)
+![image-20200426214432654](https://image.tobyqin.cn/image-20200426214432654.png)
 
 Draw.io 现在改名了，叫 diagrams.net。最关键的是，它还是开源的！
 
@@ -62,7 +62,7 @@ python3 -m http.server 8000
 
 OK 啦，干净清爽的感觉就是那么好。
 
-![demo](https://img.tobyqin.cn/demo.jpg)
+![demo](https://image.tobyqin.cn/demo.jpg)
 
 改一下 `README.md` 就推送了吧。感觉我只需要花几分钟，其实我调试了几小时，开发为什么总估不准时间呢？奇怪。
 
@@ -119,7 +119,7 @@ docker push tobyqin/drawio-local
 
 咦？这个灵魂好像有点重啊，完全推不动嘛。用 Portainer 查看一下里面到底有什么东西。
 
-![layer](https://img.tobyqin.cn/image-20200426222414429.png)
+![layer](https://image.tobyqin.cn/image-20200426222414429.png)
 
 基础镜像层总共才 4M，应用层居然接近 100M，要给灵魂减减肥了。在根目录加个 `.dockerignore` 文件，把不想打包的文件统统写在里面。
 

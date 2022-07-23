@@ -128,7 +128,7 @@ hexo s
 
 不好，歪了。
 
-![image-20200213215504529](https://img.tobyqin.cn/image-20200213215504529.png)
+![image-20200213215504529](https://image.tobyqin.cn/image-20200213215504529.png)
 
 ## 升级主题版本
 
@@ -150,7 +150,7 @@ theme: next7
 hexo clean && hexo g && hexo s
 ```
 
-![image-20200214103443505](https://img.tobyqin.cn/image-20200214103443505.png)
+![image-20200214103443505](https://image.tobyqin.cn/image-20200214103443505.png)
 
 布局是正常了，不过这字号和配色真不是我得菜。
 
@@ -177,17 +177,17 @@ hexo clean && hexo g && hexo s
 
 具体内容看这个[commit](https://github.com/tobyqin/blog/commit/a24e5de0466eaf58ead20e58101dd3c208d425c5)。
 
-![image-20200214183013735](https://img.tobyqin.cn/image-20200214183013735.png)
+![image-20200214183013735](https://image.tobyqin.cn/image-20200214183013735.png)
 
 ## 部署白屏，回滚
 
 本地测试完全没问题，推到 Github 后打开一下，懵逼了，也没显示正常但是看不见任何文字。
 
-![image-20200215113446861](https://img.tobyqin.cn/image-20200215113446861.png)
+![image-20200215113446861](https://image.tobyqin.cn/image-20200215113446861.png)
 
 从源码和 CSS 看都是正常的，眼睛就是看不见，换了浏览器也不行，查了半天，还以为是 Cloudflare 的问题，因为发现走 Cloudflare 后所有的 Script 标签都被加上了一串随机字符串，这是和本地生成的主页 diff。
 
-![image-20200215113752742](https://img.tobyqin.cn/image-20200215113752742.png)
+![image-20200215113752742](https://image.tobyqin.cn/image-20200215113752742.png)
 
 得到的结论是这个随机字符对 Script 标签没影响，因为后面我回滚后的 Script 标签页会加上随机码，但不影响显示。
 

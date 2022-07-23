@@ -92,11 +92,11 @@ my-addon
 
 打开浏览器插件页面，右上角打开开发者模式，加载插件目录。
 
-![image-20190224211641535](https://img.tobyqin.cn/image-20190224211641535.png)
+![image-20190224211641535](https://image.tobyqin.cn/image-20190224211641535.png)
 
 这时我们的第一个插件就好了，点击插件图标就可以显示 Hello World。
 
-![image-20190224211834725](https://img.tobyqin.cn/image-20190224211834725.png)
+![image-20190224211834725](https://image.tobyqin.cn/image-20190224211834725.png)
 
 ## 把 Vue 加进来
 
@@ -122,11 +122,11 @@ my-addon
 
 不用卸载刚才安装的插件目录，只要再点击一下插件按钮就会自动加载最新的代码。不过好像不对，和期望的结果不一样。
 
-![image-20190224213132801](https://img.tobyqin.cn/image-20190224213132801.png)
+![image-20190224213132801](https://image.tobyqin.cn/image-20190224213132801.png)
 
 而且注意看插件页面，出现错误了。
 
-![image-20190224213239330](https://img.tobyqin.cn/image-20190224213239330.png)
+![image-20190224213239330](https://image.tobyqin.cn/image-20190224213239330.png)
 
 ```
 Refused to load the script 'https://cdn.bootcss.com/vue/2.6.6/vue.js' because it violates the following Content Security Policy directive: "script-src 'self' blob: filesystem: chrome-extension-resource:". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
@@ -173,13 +173,13 @@ Refused to execute inline script because it violates the following Content Secur
 
 刷新一下插件，搞定了。
 
-![image-20190224215911240](https://img.tobyqin.cn/image-20190224215911240.png)
+![image-20190224215911240](https://image.tobyqin.cn/image-20190224215911240.png)
 
 ## 如何调试插件
 
 调试插件和调试一个普通的网页一样简单，右键选择审查元素就好了。
 
-![image-20190224220344298](https://img.tobyqin.cn/image-20190224220344298.png)
+![image-20190224220344298](https://image.tobyqin.cn/image-20190224220344298.png)
 
 包括插件的配置页面，新弹出的页面等等，都可以用一样的方法调试。
 
@@ -187,7 +187,7 @@ Refused to execute inline script because it violates the following Content Secur
 
 当你完成插件开发后，在启用开发者模式的插件中心就可以看到打包插件按钮，这个按钮可以帮你快速打包 crx 文件，第一次打包你不需要提供密钥，它会帮你生成一个密钥，之后的版本升级你需要用同一个密钥打包，否则就被认为是一个新的插件了，所以切记保存好密钥。
 
-![image-20190224220845746](https://img.tobyqin.cn/image-20190224220845746.png)
+![image-20190224220845746](https://image.tobyqin.cn/image-20190224220845746.png)
 
 拿着打包好的 crx 文件你就可以到商店发布啦，不过发布到谷歌商店是要交钱的，一年 9.9 美刀的开发者会员。国内的各种商店收不收费不知道。
 

@@ -11,7 +11,7 @@ Python Selenium 默认会往控制台和 Log 文件里写入大量的 DEBUG 信�
 
 这样的相信在测试过程中有一定帮助，但大部分情况下都是没有营养的，而且会把你自己打印的 Log 信息淹没在汪洋大海中。
 
-![image](https://img.tobyqin.cn/selenium-debug-logging.png)
+![image](https://image.tobyqin.cn/selenium-debug-logging.png)
 
 如果想要停止显示或者关闭 Selenium 中的 Log，你可以通过以下代码更改其默认 LOGGER 的级别。
 

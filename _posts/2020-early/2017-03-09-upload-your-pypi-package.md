@@ -74,7 +74,7 @@ password = <password>
 
 如果你的包已经上传成功，那么当你登录 PyPI 网站后应该能在右侧导航栏看到管理入口。
 
-![pypi_manage](https://img.tobyqin.cn/pypi_manage.png)
+![pypi_manage](https://image.tobyqin.cn/pypi_manage.png)
 
 点击包名进去后你可以对你的包进行管理，当然你也可以从这里删除这个包。
 

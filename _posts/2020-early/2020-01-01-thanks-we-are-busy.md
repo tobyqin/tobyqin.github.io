@@ -5,7 +5,7 @@ tags: [comics, geek, tips, devops]
 date: 2020-01-01
 ---
 
-![too-busy-to-improve](https://img.tobyqin.cn/too-busy-to-improve.png)
+![too-busy-to-improve](https://image.tobyqin.cn/too-busy-to-improve.png)
 
 新的一年开始了，
 

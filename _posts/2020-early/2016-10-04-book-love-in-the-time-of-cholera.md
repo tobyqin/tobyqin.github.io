@@ -7,7 +7,7 @@ categories: Reading
 
 > 文/大橙子
 
-![image](https://img.tobyqin.cn/love-in-cholera.jpg)
+![image](https://image.tobyqin.cn/love-in-cholera.jpg)
 
 作者歌颂的应该不是爱情，至于男女主最后终在一起，我也不认为那是爱情。
 

@@ -9,7 +9,7 @@ date: 2020-03-07
 
 <!-- more -->
 
-![image-20200307150218747](https://img.tobyqin.cn/image-20200307150218747.png)
+![image-20200307150218747](https://image.tobyqin.cn/image-20200307150218747.png)
 
 虽然画面上有快捷键，按完之后还是一脸懵逼。`^`是`Ctrl`键的缩写。
 
@@ -25,11 +25,11 @@ File Name to Write: test
 
 `^X`是退出，按完之后会让你三思。
 
-![image-20200307150852101](https://img.tobyqin.cn/image-20200307150852101.png)
+![image-20200307150852101](https://image.tobyqin.cn/image-20200307150852101.png)
 
 再按`Y`就跟上面的`^O`一样了。
 
-![image-20200307151045048](https://img.tobyqin.cn/image-20200307151045048.png)
+![image-20200307151045048](https://image.tobyqin.cn/image-20200307151045048.png)
 
 注意，快捷键都是小写，比如`^G`其实是`ctrl+g`，而不是`ctrl+shift+g`。最后附赠几个快捷键：
 

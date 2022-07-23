@@ -24,7 +24,7 @@ Sentry 是一个集中式日志管理系统。它具备以下优点：
 
 从 Sentry 的文档首页截下来的一张图，可以看到它支持目前主流的编程语言。
 
-![sentry-supported-platform](https://img.tobyqin.cn/sentry-supported-platform.png)
+![sentry-supported-platform](https://image.tobyqin.cn/sentry-supported-platform.png)
 
 ## 安装和快速上手
 
@@ -147,13 +147,13 @@ RAVEN_CONFIG = {
 
 默认情况下，一旦异常发生，5 分钟内就会有一封邮件送到你邮箱，包含了异常信息的大致描述。
 
-![sentry-email-alert](https://img.tobyqin.cn/sentry-email-alert.png)
+![sentry-email-alert](https://image.tobyqin.cn/sentry-email-alert.png)
 
 当然你还可以将异常报警集成到更多系统中，比如 HICHAT，SLACK，IRC，WEBHOOKS，在 Sentry 后台提供了相应的入口。
 
 在 Sentry 的项目 Dashboard 你可以浏览到更详细的报告，比如按照异常信息的类别进行分类和过滤，也可以统计近期异常的状态和频率，非常方便。
 
-![sentry-dashboard](https://img.tobyqin.cn/sentry-dashboard.png)
+![sentry-dashboard](https://image.tobyqin.cn/sentry-dashboard.png)
 
 Sentry 还提供了异常信息的聚合，同样的错误有可能在多处抛出，传统的日志统计起来就不是很方便，在 Sentry 一目了然。
 
