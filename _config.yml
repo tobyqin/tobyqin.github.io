@@ -100,9 +100,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: tobyqin/tobyqin.github.io # <gh-username>/<repo>
-    repo_id:
-    category: Announcements
-    category_id:
+    repo_id: R_kgDOHs0WtQ
+    category: Comments
+    category_id: DIC_kwDOHs0Wtc4CQYoq
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
