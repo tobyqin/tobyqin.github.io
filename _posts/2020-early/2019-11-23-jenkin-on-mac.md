@@ -1,7 +1,7 @@
 ---
 title: 在Mac上部署Jenkins
 categories: [Tech]
-tags: [jenkins,cicd,devops]
+tags: [Jenkins,CICD,DevOps]
 date: 2019-11-23
 ---
 
@@ -91,7 +91,7 @@ $ sudo defaults write /Library/Preferences/org.jenkins-ci httpPort 8090
 - httpsListenAddress
 - war (Defaults to `/Applications/Jenkins/jenkins.war`)
 - JENKINS_HOME (Defaults to `/Users/Shared/Jenkins`)
-- tmpdir (Defautls to `/Users/Shared/Jenkins/tmp`) 
+- tmpdir (Defautls to `/Users/Shared/Jenkins/tmp`)
 - minHeapSize (Defaults to 256m on 64bit architectures and 64m on 32bit)
 - heapSize (Defaults to 512m on 64bit architectures and 128m on 32bit)
 - minPermGen (Defaults to 256m on 64bit architectures and 64m on 32bit)

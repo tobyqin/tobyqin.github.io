@@ -2,7 +2,7 @@
 title: 猫和狗的领导力
 description:
 author: Toby Qin
-categories: [Career]
+categories: [Management]
 tags: [Life, Leadership]
 date: 2022-07-15
 ---

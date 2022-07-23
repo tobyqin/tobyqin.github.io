@@ -1,7 +1,7 @@
 ---
 title: nano的简单用法
 categories: [Tech]
-tags: [nano，linux]
+tags: [Nano, Linux]
 date: 2020-03-07
 ---
 

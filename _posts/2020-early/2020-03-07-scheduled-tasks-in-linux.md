@@ -1,7 +1,7 @@
 ---
 title: Linux里的计划任务
 categories: [Tech]
-tags: [linux，cron，crontab，anacron]
+tags: [Linux,Cron,Crontab]
 date: 2020-03-07
 ---
 

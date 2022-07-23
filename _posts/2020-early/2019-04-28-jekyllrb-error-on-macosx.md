@@ -1,7 +1,7 @@
 ---
-title: 在 MacOSX 上 准备 Jekyllrb 环境的坑
+title: 在 MacOSX 上 准备 Jekyll 环境的坑
 categories: [Tech]
-tags: [jekyllrb,ruby,bundler,blog]
+tags: [Jekyll,Ruby,Bundler,Blog]
 date: 2019-04-28
 ---
 
@@ -48,7 +48,7 @@ Done installing documentation for bundler after 3 seconds
 再来运行 `bundle install`，搞定。
 
 ```
-$ bundle install   
+$ bundle install
 ...
 Bundle complete! 10 Gemfile dependencies, 30 gems now installed.
 ```

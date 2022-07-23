@@ -1,7 +1,7 @@
 ---
 title: 在线面试编码能力
 categories: [Tech]
-tags: [tools, interview]
+tags: [Tools, Interview]
 date: 2020-03-02
 ---
 

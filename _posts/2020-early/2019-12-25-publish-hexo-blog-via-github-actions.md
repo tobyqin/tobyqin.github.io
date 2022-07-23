@@ -1,7 +1,7 @@
 ---
 title: 通过 Github Actions 自动发布 Hexo 博客
 categories: [Tech]
-tags: [hexo, github-actions, github, cicd]
+tags: [Hexo, GitHub-Actions, GitHub, CICD]
 date: 2019-12-25
 ---
 

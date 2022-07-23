@@ -1,7 +1,7 @@
 ---
 title: 一个小故事
 categories: [Life]
-tags: [life, dream]
+tags: [Dream, Life]
 date: 2020-09-14
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 敏捷研发的关键性原则
 categories: [Tech]
-tags: [agile, scrum]
+tags: [Agile, Scrum]
 date: 2021-11-28
 ---
 

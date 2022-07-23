@@ -1,6 +1,6 @@
 ---
 title: 战略性思维
-categories: [Career]
+categories: [Management]
 tags: [growth, strategy, thinking]
 date: 2022-07-19
 ---

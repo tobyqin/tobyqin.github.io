@@ -2,7 +2,7 @@
 title: 拉姆斯菲尔德和他的规则
 description:
 author: Toby Qin
-categories: [Career]
+categories: [Management]
 tags: [Life, Growth, Leadership]
 date: 2022-07-21
 ---

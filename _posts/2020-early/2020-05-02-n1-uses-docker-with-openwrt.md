@@ -1,7 +1,7 @@
 ---
 title: N1用Docker刷旁路由
 categories: [Tech]
-tags: [tips, n1, docker, route, armbian]
+tags: [Tips, N1, Docker, Armbian]
 date: 2020-05-02
 ---
 

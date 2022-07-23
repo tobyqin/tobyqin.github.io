@@ -1,7 +1,7 @@
 ---
 title: Linux的压缩和解压
 categories: [Tech]
-tags: [linux，zip，unzip，tar]
+tags: [Linux,Zip,Unzip,Tar]
 date: 2020-03-08
 ---
 

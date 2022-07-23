@@ -1,7 +1,7 @@
 ---
 title: 用Docker部署NextCloud到N1
 categories: [Tech]
-tags: [docker, n1, nextcloud, nas]
+tags: [Docker, N1, NAS]
 date: 2020-03-28
 ---
 

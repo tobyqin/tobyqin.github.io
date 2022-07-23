@@ -1,6 +1,6 @@
 ---
 title: 软件交付的原则
-tags: [devops]
+tags: [DevOps]
 date: 2019-02-26
 ---
 

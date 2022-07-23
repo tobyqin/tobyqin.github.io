@@ -1,7 +1,7 @@
 ---
 title: Move on to Python 3
 categories: Tech
-tags: [python, python 3]
+tags: [Python]
 date: 2017-02-06
 ---
 

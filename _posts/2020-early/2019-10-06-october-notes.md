@@ -1,7 +1,7 @@
 ---
 title: 十月小记
 categories: [Thoughts]
-tags: [aboutme]
+tags: [Creative]
 date: 2019-10-06
 ---
 太忙了会导致自己没有创新力，现在在花旗的时间就是一天到晚在忙于工作，然后就没有太多时间去思考很多可以改进的方面。
