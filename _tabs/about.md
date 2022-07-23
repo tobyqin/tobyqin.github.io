@@ -1,7 +1,8 @@
 ---
 title: About
 icon: fas fa-info-circle
-order: 4
+order: 5
+comments: true
 ---
 
 > 明月归心对万里，万里归心对月明。
