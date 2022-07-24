@@ -1,7 +1,5 @@
 ---
 title: 博客相关的一些记录
-description:
-author: Toby Qin
 categories: [Other]
 tags: [Blog]
 date: 2022-07-23

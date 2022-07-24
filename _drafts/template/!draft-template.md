@@ -1,9 +1,7 @@
 ---
-title: your-topic-title
-description:
-author: Toby Qin
+title: 文章标题
 categories: [Thoughts]
-tags: [Life]
+tags: [life]
 date: ${date}
 ---
 
