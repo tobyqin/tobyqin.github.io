@@ -1,5 +1,5 @@
 ---
-title: 文档
+title: Docs
 icon: fas fa-book-open
 order: 4
 ---

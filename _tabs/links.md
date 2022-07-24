@@ -1,5 +1,5 @@
 ---
-title: 链接
+title: Links
 icon: fas fa-book-open
 order: 6
 ---

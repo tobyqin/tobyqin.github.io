@@ -1,5 +1,5 @@
 ---
-title: 关于
+title: About Author
 icon: fas fa-info-circle
 order: 10
 comments: true
