@@ -1,7 +1,7 @@
 ---
 title: Hiring
 icon: fas fa-book-open
-order: 5
+order: 6
 ---
 
 # We are hiring - GSP DevOps (Citi)

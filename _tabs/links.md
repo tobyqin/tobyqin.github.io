@@ -1,12 +1,12 @@
 ---
 title: Links
 icon: fas fa-book-open
-order: 6
+order: 7
 ---
 
 ## 工具类
 
-> [小胡子哥的微信公众号 Markdown 编辑器](http://md.barretlee.com/)
+> [微信公众号 Markdown 编辑器](https://doocs.github.io/md/)
 >
 > [另外一个微信公众号 Markdown 编辑器](https://lab.lyric.im/wxformat/)
 >
