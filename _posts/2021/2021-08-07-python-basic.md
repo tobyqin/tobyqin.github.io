@@ -5,7 +5,7 @@ tags: [Python]
 date: 2021-08-07
 ---
 
-这是 Python 程序设计的简明教程，假设你已经有其他高级编程语言的经验。
+这是 [Python 程序设计的](https://www.scaler.com/topics/python/)简明教程，假设你已经有其他高级编程语言的经验。
 
 ## 环境准备
 
