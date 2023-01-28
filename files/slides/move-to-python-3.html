@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Move on to python 3</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      body {
+        font-family: Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        line-height: 1.5
+      }
+      h1, h2, h3 {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: bold;
+      }
+      .remark-code, .remark-inline-code {
+        font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+      class: center, middle
+
+      # Move on to Python 3
+
+      .footnote[Toby Qin]
+
+      .footnote[Powered by [remarkjs](http://github.com/gnab/remark)]
+
+      ---
+      # Agenda
+
+      1. What's new in python 3
+      2. Why move on to python 3
+      3. Python 3 porting strategies
+      4. How to move on to python 3
+      5. References and QA
+
+      ---
+      # What is really NEW in python 3?
+
+      1. string is unicode!
+      2. string is unicode!!
+      3. string is unicode!!!
+
+      --
+
+      **Well, I am just care on this part :-)**
+
+      --
+
+      **Actually, it is more.**
+
+      **Of course, benefits larger than hurts.**
+
+      ---
+      # Syntax changed example
+
+      - In Python 2.x
+        ```python
+        print 'hello'
+        exec "a=5"
+
+        raise NameError, 'bad name'
+        except ValueError, e
+        ```
+      --
+      - In Python 3.x
+        ```python
+        print('hello')
+        exec('a=5')
+
+        raise NameError('bad name')
+        except ValueError as e
+        ```
+      ---
+
+      # API changed - name
+
+      - In Python 2.x
+        ```python
+        for i in xrange(5):
+        	  print i
+
+        value = raw_input('Please enter your name: ')
+        ```
+      --
+      - In Python 3.x
+        ```python
+        for i in range(5):
+        	print(i)
+
+        value = input('Please enter your name: ')
+        ```
+
+      ---
+      # API changed - return type
+
+      - Return `generator` instead of `list`
+        1. `range()`
+        2. `zip()`
+        3. `map()`
+        4. `filter()`
+
+      - Return `view` instead of `list`
+        1. `dict.keys()`
+        2. `dict.items()`
+        3. `dict.values()`
+
+      - Return real number instead of integer
+        1. integer division (e.g. `1/5 => 0.2`)
+
+      ---
+      # House keeping changes
+
+      - `<>` removed, use `!=`
+      - Different type comparison will raise `TypeError` but not `False`
+      - `%` string formatting deprecated, recommend `.format()`
+      - The `super()` method do not need any argument
+      - `next(i)` but not `i.next()`
+      - Standard library cleanup
+      - unify integer type, no `long` type anymore
+      - refine [exception types](https://docs.python.org/3.3/library/exceptions.html#exception-hierarchy)
+      - more ...
+
+      ---
+      # Standard library fixed
+      | Notes | Python 2                                 | Python 3              |
+      | ----- | ---------------------------------------- | --------------------- |
+      | ①     | import httplib                           | import http.client    |
+      | ②     | import Cookie                            | import http.cookies   |
+      | ③     | import cookielib                         | import http.cookiejar |
+      | ④     | import BaseHTTPServer</br>import SimpleHTTPServer</br>import CGIHttpServer | import http.server    |
+
+      ---
+      # Standard library fixed cond.
+      | Notes | Python 2                                 | Python 3                                 |
+      | ----- | ---------------------------------------- | ---------------------------------------- |
+      | ①     | import urllib                            | import urllib.request, urllib.parse, urllib.error |
+      | ②     | import urllib2                           | import urllib.request, urllib.error      |
+      | ③     | import urlparse                          | import urllib.parse                      |
+      | ④     | import robotparser                       | import urllib.robotparser                |
+      | ⑤     | from urllib import FancyURLopener        | from urllib.request import FancyURLopener |
+
+      ---
+      class: center, middle
+
+      # New Features in Python 3!
+
+      ---
+      layout: true
+
+      ## Feature 1: Advanced unpacking
+
+      ---
+
+      - You can already do this:
+
+        ```python
+        >>> a, b = range(2)
+        >>> a
+        0
+        >>> b
+        1
+        ```
+
+      --
+
+      - Now you can do this:
+
+        ```python
+        >>> a, b, *rest = range(10)
+        >>> a
+        0
+        >>> b
+        1
+        >>> rest
+        [2, 3, 4, 5, 6, 7, 8, 9]
+        ```
+
+      ---
+
+      - `*rest` can go anywhere:
+
+        ```python
+        >>> a, *rest, b = range(10)
+        >>> a
+        0
+        >>> rest
+        [1, 2, 3, 4, 5, 6, 7, 8]
+        ```
+
+        ```python
+        >>> *rest, b = range(10)
+        >>> rest
+        [0, 1, 2, 3, 4, 5, 6, 7, 8]
+        >>> b
+        9
+        ```
+
+      ---
+      - Get the first and last lines of a file
+
+      ```python
+      >>> with open("a_file") as f:
+      ...     first, *_, last = f.readlines()
+      >>> first
+      'Step 1: Use Python 3\n'
+      >>> last
+      'Step 10: Profit!\n'
+      ```
+
+      ---
+
+      layout: true
+
+      ## Feature 2: Keyword only arguments
+
+      ---
+      ### keyword only arguments in python 2?
+
+      ```python
+      def f(a, b, *args, option=True):
+          ...
+      ```
+
+      --
+
+      - `option` comes *after* `*args`.
+      - The only way to access it is to explicitly call `f(a, b, option=True)`
+
+      --
+
+      ### You can simplify it in Python 3
+
+      ```python
+      def f(a, b, *, option=True):
+          ...
+      ```
+      - Just write a `*` before keyword only arguments
+      - you don't have to collect `*args`.
+
+      ---
+      layout: false
+      ## Example - Keyword only arguments
+
+      - "Oh, I accidentally passed too many arguments to the function, and
+      one of them was swallowed by a keyword argument".
+
+      ```python
+      def sum(a, b, clear=False):
+          if clear:
+              shutil.rmtree('/')
+          else:
+              return a + b
+      ```
+
+      ```python
+      >>> sum(1, 2)
+      3
+      ```
+      --
+      ```python
+      >>> sum(1, 2, 3)
+      ```
+
+      --
+
+      YOU ARE FIRED!!!
+
+      ---
+      ## Example - Keyword only arguments
+
+      - In Python 3, you can do it like this:
+
+        ```python
+        def sum(a, b, *, clear=False):
+            if clear:
+                shutil.rmtree('/')
+            else:
+                return a + b
+        ```
+
+        ```python
+        >>> sum(1, 2, 3)
+        Traceback (most recent call last):
+          File "<stdin>", line 1, in <module>
+        TypeError: sum() takes 2 positional arguments but 3 were given
+        ```
+
+      --
+
+      The `*` will save you a life.
+
+      ---
+      layout: true
+
+      ## Feature 3: Chained exceptions
+
+      ---
+
+      - **Situation:** you catch an exception with `except`, do something, and then
+      raise a different exception.
+
+        ```python
+        def mycopy(source, dest):
+           try:
+               shutil.copy2(source, dest)
+           except OSError: # We don't have permissions. More on this later
+               raise NotImplementedError("handle permissions")
+        ```
+
+      - **Problem:** You lose the original traceback
+
+        ```python
+        >>> mycopy('here', 'there')
+        Traceback (most recent call last):
+          File "<stdin>", line 1, in <module>
+          File "<stdin>", line 5, in mycopy
+        NotImplementedError: handle permissions
+        ```
+
+      --
+
+      - What happened with the `OSError`?
+
+      ---
+
+      - Python 3 shows you the whole chain of exceptions:
+
+        ```python
+        mycopy('here', 'there')
+        Traceback (most recent call last):
+          File "<stdin>", line 3, in mycopy
+          File "/Users/xxx/lib/python3.3/shutil.py", line 243, in copy2
+            copyfile(src, dst, follow_symlinks=follow_symlinks)
+          File "/Users/xxx//lib/python3.3/shutil.py", line 109, in copyfile
+            with open(src, 'rb') as fsrc:
+        PermissionError: [Errno 13] Permission denied: 'there'
+
+        During handling of the above exception, another exception occurred:
+
+        Traceback (most recent call last):
+          File "<stdin>", line 1, in <module>
+          File "<stdin>", line 5, in mycopy
+        NotImplementedError: handle permissions
+        ```
+
+      ---
+      - Python 3 shows you the whole chain of exceptions:
+
+        ```python
+        mycopy('here', 'there')
+        Traceback (most recent call last):
+          File "<stdin>", line 3, in mycopy
+          File "/Users/xxx/lib/python3.3/shutil.py", line 243, in copy2
+            copyfile(src, dst, follow_symlinks=follow_symlinks)
+          File "/Users/xxx//lib/python3.3/shutil.py", line 109, in copyfile
+            with open(src, 'rb') as fsrc:
+        PermissionError: [Errno 13] Permission denied: 'there'
+
+        *During handling of the above exception, another exception occurred:
+
+        Traceback (most recent call last):
+          File "<stdin>", line 1, in <module>
+          File "<stdin>", line 5, in mycopy
+        NotImplementedError: handle permissions
+        ```
+
+      ---
+      layout: false
+
+      ## More Features
+
+      ### 1. `enum`
+
+      - Finally, an enumerated type in the standard library.
+
+        ```python
+        >>> from enum import Enum
+        >>> class Color(Enum):
+        ...     red = 1
+        ...     green = 2
+        ...     blue = 3
+        ...
+        ```
+
+      ---
+
+      ### 2. Function annotations
+
+      ```python
+      def f(a: stuff, b: stuff = 2) -> result:
+          ...
+      ```
+
+      - Annotations can be arbitrary Python objects.
+
+      - Python doesn't do anything with the annotations other than put them in an
+        `__annotations__` dictionary.
+
+        ```python
+        >>> def f(x: int) -> float:
+        ...     pass
+        ...
+        >>> f.__annotations__
+        {'return': <class 'float'>, 'x': <class 'int'>}
+        ```
+
+      - But it leaves open the possibility for library authors to do fun things.
+
+      ---
+      ### 3. pathlib
+
+      - In Python 2, path handling is verbose
+
+        ```py
+        import os
+
+        directory = "/etc"
+        filepath = os.path.join(directory, "test_file.txt")
+
+        if os.path.exists(filepath):
+            stuff
+        ```
+
+      - In Python 3, it is much more simpler
+
+        ```py
+        from pathlib import Path
+
+        directory = Path("/etc")
+        filepath = directory / "test_file.txt"
+
+        if filepath.exists():
+            stuff
+        ```
+      ---
+      class: center, middle
+      # Why move on to python 3?
+
+      ---
+      ## A lot of good reasons
+      - python 2.7 is near [EOL](https://pythonclock.org/)
+      - unicode is everywhere
+      - python 3 is the major python version
+      - python 2.7 only received bug fixing
+      - new featurs and clean code
+      - growing packages and communities
+      - ...
+
+      ---
+      ## When should we move to Python 3
+      - It is the right time Now
+      - Mature and stable currently (Python 3.0 since 2008/12)
+      - New packages and books are all on Python 3
+
+      ---
+      class: center, middle
+      # Python 3 Porting strategies
+
+      ---
+      ## Python 2 and Python 3 live in one House
+      ```python
+      # code snippet from selenium
+
+      try:
+          import http.client as http_client
+      except ImportError:
+          import httplib as http_client
+
+      try:
+          basestring
+      except NameError:  # Python 3.x
+          basestring = str
+
+      # a lot of such try/except you have to add
+      ```
+      ---
+      ## Python 2 and Python 3 in different branches
+
+      ```python
+      # python 2 in origin/archive branch
+      print 'hello'
+      value = raw_input('Please enter your name')
+      ```
+      ```python
+      # python 3 in origin/develop branch
+      print('hello')
+      value = input('Please enter your name')
+      ```
+      ```
+      project -------- origin/develop (Python3)
+              |------- origin/archive (Python2)
+              |------- origin/feature1
+              |------- origin/bugfix
+              |------- ...
+      ```
+      ---
+      class: center, middle
+      # Steps to move to python 3
+
+      ---
+      ## Generally to say
+      1. Analyze your project and dependencies
+      2. [2to3 utility](https://docs.python.org/2/library/2to3.html) will help you do the dirty work
+      3. unit test coverage to protect yourself
+      4. functional test and system test
+
+      ---
+      class: center, middle
+      # Demo - PyCharm code inspection
+      ---
+      class: center, middle
+      # Demo - 2to3 utility
+      ---
+      ## 2to3 script example
+      - On Windows
+      ```bat
+      cd \path\to\my\project
+      set 2to3=C:\Python27\Tools\Scripts\2to3.py
+      python %2to3% -w -n .
+      ```
+      - On MacOS / Linux
+      ```shell
+      cd /path/to/my/project
+      2to3 -w -n .
+      ```
+      - **Options**
+      ```
+      -h, --help            show help message and exit
+      -w, --write           Write back modified files
+      -n, --nobackups       Don't write backups for modified files
+      ...
+      ```
+      ---
+      class: center, middle
+      # Demo - Mutiple python versions on same machine
+      ---
+      ## Tips
+      - Tools you should know
+        - pyenv (Mac/Linux)
+        - pylauncher (Windows)
+        - virtualenv
+      ---
+      class: center, middle
+      ## QA + References
+      ---
+      #### Video References
+      - [Moving from py2 to py3][1]
+      - [Python 3.3: Trust Me, It's Better than 2.7][2]
+      - [Why Python 3? Python 2 vs Python 3][3]
+      - [Python 3 vs Python 2 : What to choose and some basic differences][4]
+      - [By Your Bootstraps: Porting Your Application to Python3 - PyCon 2014][5]
+
+      #### Article References
+      - [What's new in python 3.0][6]
+      - [key differences between py2.7.x and py3.x with examples][7]
+      - [should I use python 2 or python 3 for my development activity?][8]
+      - [10 awesome features of python 3][9]
+      - [Python 3 porting guide][10]
+      - [porting python 2 code to python 3][11]
+      - [Automated Python 2 to 3 code translation][12]
+      - [Python3.x基础学习资料整理][13]
+
+      [1]: https://www.youtube.com/watch?v=ujXm3ndP1L4
+      [2]: https://www.youtube.com/watch?v=f_6vDi7ywuA
+      [3]: https://www.youtube.com/watch?v=oVp1vrfL_w4
+      [4]: https://www.youtube.com/watch?v=_l46dYm9ErY
+      [5]: https://www.youtube.com/watch?v=nx0sXSeJbmI
+      [6]: https://docs.python.org/3.0/whatsnew/3.0.html
+      [7]: http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html
+      [8]: https://wiki.python.org/moin/Python2orPython3
+      [9]: http://www.asmeurer.com/python3-presentation/python3-presentation.pdf
+      [10]: http://python3porting.com/intro.html
+      [11]: https://docs.python.org/3/howto/pyporting.html
+      [12]: https://docs.python.org/3.0/library/2to3.html
+      [13]: https://zhuanlan.zhihu.com/p/24249743
+
+
+
+
+    </textarea>
+      <script src="remark.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create({
+        ratio: '16:9',
+        highlightStyle: 'monokai',
+        highlightLines: true});
+    </script>
+  </body>
+</html>
