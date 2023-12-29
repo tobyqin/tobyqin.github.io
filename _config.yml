@@ -62,6 +62,9 @@ google_analytics:
     proxy_endpoint: # fill in the Google Analytics superProxy endpoint of Google App Engine
     cache_path: # the local PV cache data, friendly to visitors from GFW region
 
+# umami tracking
+# <script async src="https://us.umami.is/script.js" data-website-id="de68dc6f-2cb1-4147-9029-80649e90b98c"></script>
+
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
