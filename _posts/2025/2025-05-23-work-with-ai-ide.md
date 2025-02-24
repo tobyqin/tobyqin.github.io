@@ -7,7 +7,7 @@ date: 2025-02-23
 
 AI IDE 是 AI 时代的 IDE，它将 AI 的能力集成到 IDE 中，使得开发者可以更加高效地进行开发。
 
-![](./%20assets/cursor-example.jpg)
+![](./assets/cursor-example.jpg)
 
 ## AI IDE 的优点
 
@@ -103,8 +103,9 @@ AI IDE 的能力远比 AI 插件强大，AI 插件需要你找到合适的代码
    - 版本控制很重要，随时做好倒车的准备
    - 尝试切换模型，对比结果
    - 尝试切换对话方式和语气，对比结果，比如使用批评或者赞美
+   - 让 AI 插入必要的调试日志，然后通过提供调试日志给 AI 来排查问题，问题解决后再清理调试信息
 
-![](./%20assets/cursor-prompt.jpg)
+![](./assets/cursor-prompt.jpg)
 
 ## 最后
 
