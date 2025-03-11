@@ -7,7 +7,7 @@ date: 2025-02-23
 
 AI IDE 是 AI 时代的 IDE，它将 AI 的能力集成到 IDE 中，开发还是那个开发，但 IDE 已经不是那个 IDE。
 
-![](./assets/cursor-example.jpg)
+![](https://image.tobyqin.cn/202503112212641.jpg)
 
 ## AI IDE 的优点
 
@@ -109,7 +109,7 @@ AI IDE 的能力远比 AI 插件（比如 CoPilot ）强大，AI 插件需要你
 
 尝试把 AI 当成一个团队伙伴，要有耐心，要给与尊重。尝试把 AI 当成一个从外面空降的专家，他固然厉害，但明显不了解你的业务需求，他可很有想法，最终还是需要你来决定他的实施方向。人类始终处于主导地位，否则做出来的东西必然是一堆胡言乱语的垃圾。
 
-![](./assets/cursor-prompt.jpg)
+![](https://image.tobyqin.cn/202503112213626.jpg)
 
 ## 最后
 
