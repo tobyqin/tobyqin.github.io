@@ -8,7 +8,7 @@ Now this blog was deployed via <https://vercel.com/>, can be visited by followin
 
 1. https://tobyqin.cn (from Vercel)
 2. https://tobyqin-github-io.vercel.app
-3. https://tobyqin.github.io (Github Pages)
+3. https://tobyqin.github.io (GitHub Pages)
 
 ## Usage
 
