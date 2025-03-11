@@ -113,4 +113,3 @@ project-name
 1. Java 项目结构最近实践： [https://www.youtube.com/watch?v=DoK3-9V5HRE](https://www.youtube.com/watch?v=DoK3-9V5HRE)
 2. Golang 项目结构 [https://github.com/golang-standards/project-layout](https://github.com/golang-standards/project-layout)
 3. Maven 标准项目结构 [https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
-4. 按包而不是按层划分项目功能 [http://www.javapractices.com/topic/TopicAction.do?Id=205](http://www.javapractices.com/topic/TopicAction.do?Id=205)
