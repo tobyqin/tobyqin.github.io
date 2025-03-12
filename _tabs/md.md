@@ -1,6 +1,6 @@
 ---
 title: Editor
-icon: fas fa-book-open
+icon: fas fa-pen-to-square
 order: 5
 ---
 

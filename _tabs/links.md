@@ -1,6 +1,6 @@
 ---
 title: Links
-icon: fas fa-book-open
+icon: fas fa-link
 order: 7
 ---
 
