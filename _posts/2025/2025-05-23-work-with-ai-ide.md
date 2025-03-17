@@ -59,7 +59,7 @@ AI IDE 的能力远比 AI 插件（比如 CoPilot ）强大，AI 插件需要你
 
 ## AI IDE 产品对比
 
-参考 https://metaso.cn/s/yPYhwGU
+米塔搜索帮忙做的对比，供参考 <https://metaso.cn/s/yPYhwGU>
 
 主流 AI IDE 产品比较：
 
