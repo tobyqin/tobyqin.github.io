@@ -17,9 +17,8 @@ timezone: Asia/Shanghai
 title: Practice # the main title
 
 tagline: makes perfect # it will display as the subtitle
-
-description: >- # used by seo meta and the atom feed
-  This is another blog to share thoughts and experience in software engineering and DevOps.
+description: >- # used by SEO meta and the Atom feed
+  A professional blog dedicated to sharing insights, experiences, and best practices in software engineering.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://tobyqin.cn"
