@@ -1,6 +1,6 @@
 ---
 title: Docs
-icon: fas fa-fa-book
+icon: fas fa-book
 order: 5
 ---
 
