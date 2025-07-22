@@ -1,6 +1,6 @@
 ---
 title: LinkedIn
-icon: fa-brands fa-linkedin
+icon: fa fa-linkedin
 order: 6
 ---
 
