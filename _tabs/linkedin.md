@@ -1,7 +1,7 @@
 ---
 title: LinkedIn
-icon: fas fa-linkedin
-order: 1
+icon: fa-brands fa-linkedin
+order: 6
 ---
 
 Loading to Toby's LinkedIn ...
