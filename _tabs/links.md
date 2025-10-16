@@ -10,6 +10,8 @@ order: 7
 >
 > [另外一个微信公众号 Markdown 编辑器](https://lab.lyric.im/wxformat/)
 >
+> [还有一个微信公众号编辑器](https://markdown.com.cn/editor/)
+>
 > [好用的开发者文档阅读方式](http://devdocs.io/offline)
 >
 > [各种在线工具合集-OSCHINA](http://tool.oschina.net)
