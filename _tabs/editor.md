@@ -6,4 +6,4 @@ order: 5
 
 Loading to Markdown Editor ...
 
-<script>window.location.href = 'https://doocs.github.io/md/';</script>
+<script>window.location.href = 'https://markdown.com.cn/editor/';</script>
