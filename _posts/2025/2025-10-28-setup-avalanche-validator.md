@@ -71,6 +71,6 @@ This whole experience reinforced several core DevOps principles and provided val
 
 While deploying the validator was more challenging than expected, it was an incredibly rewarding learning experience. The process highlighted the gap between simple deployment and achieving sustained operational stability in a decentralized network. The troubleshooting journey, though frustrating at times, deepened my understanding of node operations, networking, and the importance of robust automation and monitoring.
 
-All the commands, Ansible scripts, configuration templates, and detailed notes I took during this process are available in my GitHub repository: `https://github.com/tobyqin/avalanche-validator-automation`. Feel free to check it out!
+All the commands, Ansible scripts, configuration templates, and detailed notes I took during this process are available in my GitHub repository: <https://github.com/tobyqin/avalanche-validator-automation>. Feel free to check it out!
 
 Thanks for the challenge! It was genuinely fun and insightful.
