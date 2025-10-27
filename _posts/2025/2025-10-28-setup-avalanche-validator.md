@@ -11,6 +11,8 @@ Recently, I took on a challenge: deploy, monitor, and operate an Avalanche Fuji 
 
 As a firm believer in Infrastructure as Code (IaC), my immediate thought was automation. Ansible would handle the server setup and configuration, and Docker would provide a consistent environment for the `avalanchego` node. I sketched out the playbooks, templated the configuration files (`docker-compose.yml`, `node_config.json`), and felt confident I could get a node up and running quickly.
 
+![](https://image.tobyqin.cn/202510280023448.png)
+
 ## Early Hurdles: The Devil's in the Details
 
 While the Ansible and Docker setup itself went smoothly (after a few typical playbook debugging cycles), the practical steps of interacting with the Avalanche network presented the first set of small, but necessary, hurdles.
@@ -51,6 +53,8 @@ This wasn't without its own learning curve. Native deployment requires careful m
 
 Ultimately, after ensuring the native setup was correct according to the docs and still facing the `accessible=no` problem, I performed a **full server reboot**. Surprisingly, after the reboot, the native node started reporting as `accessible=yes` and `online=yes` on the Explorer. While I'm hopeful it remains stable, only time will tell.
 
+![](https://image.tobyqin.cn/202510280024642.png)
+
 ## Key Takeaways: Automation, Docs, and Monitoring
 
 This whole experience reinforced several core DevOps principles and provided valuable insights:
@@ -59,7 +63,7 @@ This whole experience reinforced several core DevOps principles and provided val
 
 2.  **Trust, But Verify (Especially Docs):** The official documentation proved invaluable, especially for the native setup. While community support can be hit-or-miss, the official docs are generally the most reliable source of truth. However, even docs can have nuances or slight inaccuracies (like the initial confusion over the *actual* minimum staking duration on Fuji).
 
-3.  **Monitoring: Follow the Experts:** I initially deployed Prometheus and Grafana alongside the Docker setup. While building custom monitoring is possible, I quickly realized that leveraging the **official Grafana dashboard (ID `15757`)** and understanding the metrics *it* expects (including those from `node_exporter` for host stats, which my simple Docker setup lacked visibility into) is far more efficient for standard tasks. Unless monitoring *is* your primary job, stick close to the official recommendations. Reinventing the wheel here is time-consuming with limited return for a basic setup.
+3.  **Monitoring: Follow the Experts:** I initially deployed Prometheus and Grafana alongside the Docker setup. While building custom monitoring is possible, I quickly realized that leveraging the **official Grafana dashboard** and understanding the metrics *it* expects (including those from `node_exporter` for host stats, which my simple Docker setup lacked visibility into) is far more efficient for standard tasks. Unless monitoring *is* your primary job, stick close to the official recommendations. Reinventing the wheel here is time-consuming with limited return for a basic setup.
 
 4.  **Web3 Concepts Demystified:** Beyond the technical hurdles, this challenge was a fantastic, hands-on introduction to practical blockchain concepts like Layers (L1/L2), Networks, specific Chain functions (P/C/X), Subnets, staking mechanics, and the importance of network health metrics (uptime, accessibility).
 
