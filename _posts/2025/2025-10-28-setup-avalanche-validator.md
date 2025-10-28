@@ -2,7 +2,7 @@
 title: My Journey Setting Up an Avalanche Validator - The Stability Puzzle
 categories: Tech
 tags: engineering,devops,web3,avalanche
-date: 2025-10-17
+date: 2025-10-28
 ---
 
 Recently, I took on a challenge: deploy, monitor, and operate an Avalanche Fuji Testnet validator node. With a solid DevOps background, my go-to strategy was clear: automate with Ansible and Docker for what seemed like a straightforward task. I anticipated a quick setup and then focusing on the monitoring aspects. However, the path from deployment to stable operation proved much more winding and educational.
