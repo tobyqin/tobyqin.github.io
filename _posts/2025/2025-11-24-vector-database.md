@@ -2,7 +2,7 @@
 title: 2025 年向量数据库选型实战指南，从 pgVector 到 Milvus
 categories: Tech
 tags: database, ai
-date: 2025-11-17
+date: 2025-11-24
 ---
 
 随着 LLM 和 RAG（检索增强生成）架构的爆发，向量数据库（Vector Database）一夜之间成为了基础设施中的“当红炸子鸡”。
