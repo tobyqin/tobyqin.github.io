@@ -57,7 +57,7 @@ date: 2025-11-26
 
 **设计隐喻**：精密装配生产线
 
-**运作机制**：针对高精度、高专业度的内容生成需求，业界（如 agentUniverse）提出了 **DOE（Data-fining，Opinion-inject，Express）**模式：
+**运作机制**：针对高精度、高专业度的内容生成需求，业界（如 agentUniverse）提出了 DOE（Data-fining，Opinion-inject，Express）模式：
 
 - **D（Data-fining）**：专注于客观数据的清洗与校准，消除幻觉
 - **O（Opinion-inject）**：专注于注入专家观点、标准流程或业务逻辑，提升深度
