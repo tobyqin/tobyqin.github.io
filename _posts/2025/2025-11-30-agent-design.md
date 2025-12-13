@@ -1,8 +1,8 @@
 ---
-title： Agent设计的本质
-categories： Tech
-tags： ai
-date： 2025-11-30
+title: Agent设计的本质
+categories: Tech
+tags: ai
+date: 2025-11-30
 ---
 
 Agent 应该把信任作为目标，而不是追求功能强大和高自主性。

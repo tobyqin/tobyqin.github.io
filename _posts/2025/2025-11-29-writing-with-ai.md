@@ -1,8 +1,8 @@
 ---
-title： AI时代，人类写作还有意义吗
-categories： Life
-tags： thoughts
-date： 2025-11-29
+title: AI时代，人类写作还有意义吗
+categories: Life
+tags: thoughts
+date: 2025-11-29
 ---
 
 随着 AI 工具在文本生成、润色和信息整合方面的惊人表现，一个残酷的问题摆在所有内容创作者面前：**人类的写作能力，在未来社会中还有意义吗？**

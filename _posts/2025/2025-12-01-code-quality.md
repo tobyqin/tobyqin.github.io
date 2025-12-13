@@ -1,7 +1,7 @@
 ---
-title： 你的代码，就是你的节操
-tags： engineering
-date： 2025-12-01
+title: 你的代码，就是你的节操
+tags: engineering
+date: 2025-12-01
 ---
 
 ## 别再对着屎山叹气了

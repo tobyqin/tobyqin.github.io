@@ -1,7 +1,7 @@
 ---
-title： 防御性架构思维
-tags： engineering
-date： 2025-12-02
+title: 防御性架构思维
+tags: engineering
+date: 2025-12-02
 ---
 
 如何设计一个无可挑剔的电商下单系统？
