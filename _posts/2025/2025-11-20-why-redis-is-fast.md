@@ -1,7 +1,8 @@
 ---
-title： 理解 Redis：快只是表象，架构才是灵魂
-tags： engineering
-date： 2025-11-20
+title: 理解 Redis：快只是表象，架构才是灵魂
+categories: Tech
+tags: engineering
+date: 2025-11-20
 ---
 
 做后端开发的同学，对这个场景肯定不陌生：系统响应慢了，leader 第一句话就是，我们加个 Redis 缓存吧。

@@ -1,6 +1,7 @@
 ---
 title: 玻璃球和橡胶球
-tags: life
+categories: Life
+tags: thoughts
 date: 2025-12-03
 ---
 

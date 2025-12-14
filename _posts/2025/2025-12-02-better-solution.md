@@ -1,5 +1,6 @@
 ---
 title: 防御性架构思维
+categories: Tech
 tags: engineering
 date: 2025-12-02
 ---

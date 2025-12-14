@@ -1,5 +1,6 @@
 ---
 title: 你的代码，就是你的节操
+categories: Tech
 tags: engineering
 date: 2025-12-01
 ---
