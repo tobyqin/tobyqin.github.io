@@ -2,7 +2,7 @@
 title: IDP 的本质，是构建数字化的研发能力中心
 categories: Tech
 tags: engineering
-date: 2025-12-03
+date: 2025-12-04
 ---
 
 ### 我们是不是把 IDP 做歪了?
